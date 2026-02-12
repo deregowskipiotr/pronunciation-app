@@ -14,7 +14,7 @@ export const Card = ({
   return (
     <div
       className={`
-        relative w-full min-h-110 md:min-h-129
+        relative w-full min-h-110 md:min-h-129 
         bg-slate-900/50 backdrop-blur-sm 
         border border-slate-700/50 hover:border-primary-400
         rounded-md shadow-lg p-8

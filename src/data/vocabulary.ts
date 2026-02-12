@@ -7,85 +7,87 @@ import type { VocabularyWord } from "@/types";
 export const vocabularyWords: VocabularyWord[] = [
   {
     id: 1,
-    word: "to precipitate",
-    explanation: "To cause something to happen suddenly or unexpectedly.",
-    example: "The bad news precipitated an argument between them.",
+    word: "revolting",
+    explanation: "Extremely disgusting or offensive, making you want to puke.",
+    example: "That revolting smell from the gym socks made everyone run away.",
     example1:
-      "The economic crisis precipitated a wave of political unrest across the region.",
+      "The politician's revolting lies during the debate had the crowd chanting for pizza instead of votes.",
   },
   {
     id: 2,
-    word: "sluggish",
-    explanation: "Moving or reacting slowly; lacking energy.",
-    example: "I feel sluggish after eating too much lunch.",
+    word: "to get to grips with",
+    explanation: "To start understanding and handling something difficult.",
+    example: "I need time to get to grips with this new React hook.",
     example1:
-      "The sluggish economy showed few signs of recovery despite government intervention.",
+      "My cat finally got to grips with the laser pointer—now it's chasing it like a drunk coder debugging Tailwind at 3 AM.",
   },
   {
     id: 3,
-    word: "incipient",
-    explanation: "Just beginning; in an early stage.",
-    example: "I noticed the incipient signs of a cold yesterday.",
+    word: "to ridicule",
+    explanation: "To make fun of someone in a mean or mocking way.",
+    example: "They started to ridicule his old phone in front of everyone.",
     example1:
-      "The incipient rebellion was quickly suppressed by the authorities.",
+      "The boss ridiculed Dave's bourbon tasting notes, saying his 'oaky vibes' sounded like a tree got lost in a whiskey barrel party.",
   },
   {
     id: 4,
-    word: "irrevocable",
-    explanation: "Impossible to change or undo.",
-    example: "Once you sign the contract, the decision is irrevocable.",
-    example1: "The judge's ruling was irrevocable, leaving no room for appeal.",
+    word: "to insult",
+    explanation: "To say something rude or hurtful to offend someone.",
+    example: "Don't insult your friend by laughing at their outfit.",
+    example1:
+      "She insulted the barista by calling his latte art 'a sad cloud that looks like my ex's coding skills'.",
   },
   {
     id: 5,
-    word: "by dint of",
-    explanation: "Through the use of effort or hard work.",
-    example: "She succeeded by dint of hard work and determination.",
+    word: "to take sb for a ride",
+    explanation: "To cheat or deceive someone, often for money or fun.",
+    example: "The salesman tried to take us for a ride with a fake deal.",
     example1:
-      "He gained promotion by dint of sheer persistence and meticulous attention to detail.",
+      "That shady Uber driver took me for a ride—drove me around Warsaw hood blasting polka remixes while my bourbon buzz wore off.",
   },
   {
     id: 6,
-    word: "to depict",
-    explanation: "To show or describe something, usually in art or writing.",
-    example: "The painting depicts a beautiful landscape.",
+    word: "embellishment",
+    explanation:
+      "An added detail that makes a story more interesting, sometimes exaggerated.",
+    example: "His fishing story had too many embellishments to be true.",
     example1:
-      "The novel depicts the harsh realities of life during wartime with unflinching honesty.",
+      "Her resume's embellishment claimed she coded Next.js apps while wrestling bears in the Mazovia woods.",
   },
   {
     id: 7,
-    word: "to scrutinize",
-    explanation: "To examine something very carefully.",
-    example: "The teacher scrutinized my homework for mistakes.",
+    word: "gross",
+    explanation: "Disgusting or nasty, often about something slimy or yucky.",
+    example: "The gross leftovers in the fridge were growing fur.",
     example1:
-      "The auditor scrutinized the company's financial records for any irregularities.",
+      "That gross glitch in my React app made buttons fart emojis every time I clicked deploy—like Docker throwing a tantrum.",
   },
   {
     id: 8,
-    word: "foreseeable",
-    explanation: "Possible to predict or expect in the future.",
-    example: "There are no foreseeable problems with the plan.",
+    word: "to resemble",
+    explanation: "To look like or be similar to someone or something.",
+    example: "She resembles her mom a lot in photos.",
     example1:
-      "In the foreseeable future, renewable energy will dominate global power production.",
+      "My TypeScript error messages resemble angry drunk uncles at a whiskey tasting—yelling vague complaints with no fixes.",
   },
   {
     id: 9,
-    word: "sane",
-    explanation: "Having a healthy mind; reasonable.",
-    example: "Nobody in their right mind would agree to that.",
+    word: "to pull oneself together",
+    explanation: "To calm down and control your emotions after getting upset.",
+    example: "After the bad news, he had to pull himself together quickly.",
     example1:
-      "Only a sane approach to budget management will resolve the current fiscal crisis.",
+      "After spilling premium bourbon on his keyboard mid-code sprint, he pulled himself together by pretending it was a fancy glitch art install.",
   },
   {
     id: 10,
-    word: "to fall prey to sth",
-    explanation: "To be caught or harmed by something bad.",
-    example: "Don't fall prey to scams on the internet.",
+    word: "abnormality",
+    explanation: "Something unusual or not normal, like a weird feature.",
+    example: "The doctor checked for any abnormality in the test results.",
     example1:
-      "Many investors fell prey to the fraudulent scheme promising unrealistic returns.",
+      "The abnormality in my flashcard app? It quizzes you on words while animating dancing vodka bottles with Framer Motion.",
   },
-  // Add more words with sequential IDs as needed
 ];
+
 
 /**
  * Fisher-Yates shuffle algorithm for proper random distribution

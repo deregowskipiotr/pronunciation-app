@@ -219,7 +219,7 @@ export const SpeechFlashcard = () => {
       {/* SPLIT SCREEN LAYOUT - Card Left / Controls Right */}
       <div className="flex flex-col lg:flex-row gap-4 w-full md:pt-4 md:px-4">
         {/* LEFT COLUMN - Card only, full height */}
-        <div className="lg:w-1/2 flex items-stretch">
+        <div className="w-full lg:w-1/2 flex items-stretch">
           <div className="w-full">
             <AnimatePresence mode="wait">
               <motion.div

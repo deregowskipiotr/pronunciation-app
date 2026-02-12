@@ -9,6 +9,16 @@ export const useSpeechTTS = (): UseSpeechTTSReturn => {
   const [availableVoices, setAvailableVoices] = useState<
     SpeechSynthesisVoice[]
   >([]);
+  const [selectedVoiceName, setSelectedVoiceName] = useState<string | null>(
+    () => {
+      // Load saved voice preference from localStorage
+      if (typeof window !== "undefined") {
+        return localStorage.getItem("preferredVoice");
+      }
+      return null;
+    },
+  );
+
   const currentUtterance = useRef<SpeechSynthesisUtterance | null>(null);
 
   // Load available voices
@@ -32,7 +42,6 @@ export const useSpeechTTS = (): UseSpeechTTSReturn => {
   useEffect(() => {
     return () => {
       if (currentUtterance.current) {
-        // Remove event listeners
         const utterance = currentUtterance.current;
         utterance.onstart = null;
         utterance.onend = null;
@@ -44,23 +53,60 @@ export const useSpeechTTS = (): UseSpeechTTSReturn => {
     };
   }, [supported]);
 
+  // Save voice preference
+  const saveVoicePreference = useCallback((voiceName: string) => {
+    setSelectedVoiceName(voiceName);
+    if (typeof window !== "undefined") {
+      localStorage.setItem("preferredVoice", voiceName);
+    }
+  }, []);
+
   const getPreferredVoice = useCallback((): SpeechSynthesisVoice | null => {
     if (availableVoices.length === 0) return null;
 
-    // Prefer US English voices
+    // 1. Try to use saved voice preference
+    if (selectedVoiceName) {
+      const savedVoice = availableVoices.find(
+        (voice) => voice.name === selectedVoiceName,
+      );
+      if (savedVoice) return savedVoice;
+    }
+
+    // 2. Try to find a female US English voice
     const usVoices = availableVoices.filter((voice) =>
       voice.lang.startsWith("en-US"),
     );
 
-    // Try to find a female voice first (common for language learning)
     const femaleVoice = usVoices.find(
       (voice) =>
         voice.name.toLowerCase().includes("female") ||
-        voice.name.toLowerCase().includes("samantha"), // Common macOS voice
+        voice.name.toLowerCase().includes("samantha") || // macOS
+        voice.name.toLowerCase().includes("google") || // Android/Chrome
+        voice.name.toLowerCase().includes("zira") || // Windows
+        voice.name.toLowerCase().includes("helena") || // Some systems
+        voice.name.toLowerCase().includes("sara"), // Some systems
     );
 
-    return femaleVoice || usVoices[0] || availableVoices[0];
-  }, [availableVoices]);
+    // 3. Fallback to any US English voice
+    if (femaleVoice) {
+      // Save this as preference for next time
+      saveVoicePreference(femaleVoice.name);
+      return femaleVoice;
+    }
+
+    if (usVoices[0]) {
+      saveVoicePreference(usVoices[0].name);
+      return usVoices[0];
+    }
+
+    // 4. Last resort: any voice
+    if (availableVoices[0]) {
+      saveVoicePreference(availableVoices[0].name);
+      return availableVoices[0];
+    }
+
+    return null;
+  }, [availableVoices, selectedVoiceName, saveVoicePreference]);
 
   const speak = useCallback(
     (text: string, rate: number = 0.9, isExample: boolean = false) => {
@@ -69,7 +115,7 @@ export const useSpeechTTS = (): UseSpeechTTSReturn => {
         return;
       }
 
-      // Cancel only our own utterance, not all speech
+      // Cancel current speech
       if (currentUtterance.current) {
         window.speechSynthesis.cancel();
         currentUtterance.current = null;
@@ -78,53 +124,28 @@ export const useSpeechTTS = (): UseSpeechTTSReturn => {
       const utterance = new SpeechSynthesisUtterance(text);
       currentUtterance.current = utterance;
 
+      // Apply voice preference
       const voice = getPreferredVoice();
       if (voice) {
         utterance.voice = voice;
       }
 
       utterance.lang = "en-US";
-      utterance.rate = isExample ? 0.85 : rate; // Slower for examples
+      utterance.rate = isExample ? 0.85 : rate;
       utterance.pitch = 1.0;
       utterance.volume = 0.9;
 
-      // Clean up previous listeners
-      utterance.onstart = null;
-      utterance.onend = null;
-      utterance.onerror = null;
-
-      const handleStart = () => setIsSpeaking(true);
-      const handleEnd = () => {
+      // Set up event handlers
+      utterance.onstart = () => setIsSpeaking(true);
+      utterance.onend = () => {
         setIsSpeaking(false);
         currentUtterance.current = null;
       };
-      const handleError = (event: SpeechSynthesisErrorEvent) => {
+      utterance.onerror = (event: SpeechSynthesisErrorEvent) => {
         console.error("Speech synthesis error:", event.error);
         setIsSpeaking(false);
         currentUtterance.current = null;
-
-        // Provide user-friendly error messages
-        switch (event.error) {
-          case "interrupted":
-            console.warn("Speech was interrupted");
-            break;
-          case "audio-busy":
-            console.warn("Audio device is busy");
-            break;
-          case "audio-hardware":
-            console.warn("Audio hardware error");
-            break;
-          case "network":
-            console.warn("Network error");
-            break;
-          default:
-            console.warn("Speech synthesis failed");
-        }
       };
-
-      utterance.onstart = handleStart;
-      utterance.onend = handleEnd;
-      utterance.onerror = handleError;
 
       try {
         window.speechSynthesis.speak(utterance);
@@ -159,12 +180,21 @@ export const useSpeechTTS = (): UseSpeechTTSReturn => {
     }
   }, [supported]);
 
+  const setVoice = useCallback(
+    (voiceName: string) => {
+      saveVoicePreference(voiceName);
+    },
+    [saveVoicePreference],
+  );
+
   return {
     speakWord,
     speakExample,
     isSpeaking,
     supported,
-    stopSpeaking, // Optional: add to your types
-    availableVoices, // Optional: for debugging
+    stopSpeaking,
+    availableVoices,
+    selectedVoiceName,
+    setVoice, // Add this to change voice programmatically
   };
 };

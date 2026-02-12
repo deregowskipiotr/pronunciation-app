@@ -65,6 +65,8 @@ export interface UseSpeechTTSReturn {
   supported: boolean;
   stopSpeaking?: () => void; // Add this (optional)
   availableVoices?: SpeechSynthesisVoice[]; // Add this (optional)
+  selectedVoiceName: string | null;
+  setVoice: (voiceName: string) => void;
 }
 
 export interface UseSpeechSTTReturn {

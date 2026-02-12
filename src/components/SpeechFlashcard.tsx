@@ -248,7 +248,7 @@ export const SpeechFlashcard = () => {
             <div className="flex justify-end">
               <motion.button
                 onClick={handleResetSession}
-                className="flex items-center gap-3 md:gap-2 px-5 md:px-6.5 py-2 md:mr-0.5 bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/50 rounded-md shadow-md text-slate-400 hover:text-slate-300 transition-colors cursor-pointer"
+                className="flex items-center gap-3 md:gap-2 px-4.5 md:px-6.5 py-2 md:mr-0.5 bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/50 rounded-md shadow-md text-slate-400 hover:text-slate-300 transition-colors cursor-pointer"
               >
                 <span className="text-md">↻</span>
                 <span className="text-slate-400 text-[12px] md:text-md">

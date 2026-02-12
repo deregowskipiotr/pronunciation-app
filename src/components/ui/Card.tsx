@@ -50,7 +50,7 @@ export const Card = ({
               {/* TITLE - Fixed top-center position */}
               <div className="row-start-1 w-full flex justify-center pt-12 md:pt-16">
                 <motion.h2
-                  className="text-xl md:text-4xl font-serif uppercase italic text-blue-500/50 drop-shadow-lg text-center max-w-full truncate"
+                  className="text-xl md:text-3xl font-serif uppercase italic text-blue-500/50 drop-shadow-lg text-center max-w-md"
                   initial={{ opacity: 0, scale: 0.95 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: 0.1, duration: 0.5 }}
@@ -99,7 +99,7 @@ export const Card = ({
               {/* TITLE - Fixed top-center position (WITH MOTION) */}
               <div className="row-start-1 w-full flex justify-center pt-10">
                 <motion.h2 // ← ADDED MOTION ANIMATION
-                  className="text-xl md:text-4xl font-serif uppercase italic text-blue-300/70 drop-shadow-lg text-center max-w-full truncate"
+                  className="text-xl md:text-3xl font-serif uppercase italic text-blue-500/50 drop-shadow-lg text-center max-w-md"
                   initial={{ opacity: 0, scale: 0.95 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: 0.1, duration: 0.5 }}
@@ -167,7 +167,7 @@ export const Card = ({
           >
             ↻
           </motion.span>
-          <span >Flip</span>
+          <span>Flip</span>
         </div>
       </div>
     </div>

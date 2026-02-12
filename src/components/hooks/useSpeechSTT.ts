@@ -16,6 +16,7 @@ export const useSpeechSTT = (): UseSpeechSTTReturn => {
     const SpeechRecognitionAPI =
       window.SpeechRecognition || window.webkitSpeechRecognition;
     const isSupported = !!SpeechRecognitionAPI;
+    
 
     if (isSupported) {
       try {

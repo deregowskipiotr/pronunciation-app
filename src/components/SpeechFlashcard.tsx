@@ -238,7 +238,7 @@ export const SpeechFlashcard = () => {
           {/* TOP SECTION - Stats & Progress */}
           <div className="space-y-3">
             {/* Unified Button Row - VoiceSelector & Reset */}
-            <div className="flex justify-between items-center w-full gap-3">
+            <div className="flex justify-between items-center w-full gap-2 md:gap-3">
               {/* VoiceSelector - wrapped to match exact width */}
               <div className="flex-1 min-w-0">
                 <VoiceSelector tts={tts} className="w-full" />

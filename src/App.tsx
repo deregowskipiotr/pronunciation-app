@@ -13,7 +13,7 @@ function App() {
         </div>
 
         {/* SpeechFlashcard - Full available height */}
-        <div className="flex-1 w-full flex flex-col lg:min-h-150 p-4">
+        <div className="flex-1 w-full flex flex-col lg:min-h-150 p-0 md:p-4">
           <SpeechFlashcard />
         </div>
       </main>

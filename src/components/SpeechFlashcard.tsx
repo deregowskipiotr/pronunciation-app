@@ -254,7 +254,7 @@ export const SpeechFlashcard = () => {
                 <span className="text-slate-400 text-[12px] md:text-md">
                   Reset
                 </span>
-                <span className="hidden md:inline text-sm text-slate-400">
+                <span className="text-sm text-slate-400">
                   session
                 </span>
               </motion.button>

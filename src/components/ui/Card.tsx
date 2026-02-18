@@ -14,7 +14,7 @@ export const Card = ({
   return (
     <div
       className={`
-        relative w-full min-h-110 md:min-h-129 
+        relative w-full min-h-100 md:min-h-129 
         bg-slate-900/50 backdrop-blur-sm 
         border border-slate-700/50
         rounded-md shadow-lg p-8
@@ -48,7 +48,7 @@ export const Card = ({
               style={{ backfaceVisibility: "hidden" }}
             >
               {/* TITLE - Fixed top-center position */}
-              <div className="row-start-1 w-full flex justify-center pt-12 md:pt-16">
+              <div className="row-start-1 w-full flex justify-center pt-8 md:pt-16">
                 <motion.h2
                   className="text-xl md:text-3xl font-serif uppercase italic text-blue-500/50 drop-shadow-lg text-center max-w-md"
                   initial={{ opacity: 0, scale: 0.95 }}
@@ -97,7 +97,7 @@ export const Card = ({
               style={{ backfaceVisibility: "hidden" }}
             >
               {/* TITLE - Fixed top-center position (WITH MOTION) */}
-              <div className="row-start-1 w-full flex justify-center pt-10">
+              <div className="row-start-1 w-full flex justify-center pt-6 md:pt-12">
                 <motion.h2 // ← ADDED MOTION ANIMATION
                   className="text-xl md:text-3xl font-serif uppercase italic text-blue-500/50 drop-shadow-lg text-center max-w-md"
                   initial={{ opacity: 0, scale: 0.95 }}

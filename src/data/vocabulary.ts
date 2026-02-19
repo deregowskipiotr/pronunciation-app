@@ -6,85 +6,89 @@ import type { VocabularyWord } from "@/types";
 
 export const vocabularyWords: VocabularyWord[] = [
   {
-    id: 1,
-    word: "revolting",
-    explanation: "Extremely disgusting or offensive, making you want to puke.",
-    example: "That revolting smell from the gym socks made everyone run away.",
+    id: 21,
+    word: "specific",
+    explanation: "Clearly defined or identified; precise and detailed.",
+    example:
+      "Please be more specific about your requirements so I can help you better.",
     example1:
-      "The politician's revolting lies during the debate had the crowd chanting for pizza instead of votes.",
+      "The doctor gave specific instructions about when to take the medication.",
   },
   {
-    id: 2,
-    word: "to get to grips with",
-    explanation: "To start understanding and handling something difficult.",
-    example: "I need time to get to grips with this new React hook.",
+    id: 22,
+    word: "clothes",
+    explanation: "Items worn to cover the body; garments.",
+    example: "I need to buy new clothes for the job interview tomorrow.",
     example1:
-      "My cat finally got to grips with the laser pointer—now it's chasing it like a drunk coder debugging Tailwind at 3 AM.",
+      "The designer's clothes were featured in fashion magazines worldwide.",
   },
   {
-    id: 3,
-    word: "to ridicule",
-    explanation: "To make fun of someone in a mean or mocking way.",
-    example: "They started to ridicule his old phone in front of everyone.",
-    example1:
-      "The boss ridiculed Dave's bourbon tasting notes, saying his 'oaky vibes' sounded like a tree got lost in a whiskey barrel party.",
-  },
-  {
-    id: 4,
-    word: "to insult",
-    explanation: "To say something rude or hurtful to offend someone.",
-    example: "Don't insult your friend by laughing at their outfit.",
-    example1:
-      "She insulted the barista by calling his latte art 'a sad cloud that looks like my ex's coding skills'.",
-  },
-  {
-    id: 5,
-    word: "to take sb for a ride",
-    explanation: "To cheat or deceive someone, often for money or fun.",
-    example: "The salesman tried to take us for a ride with a fake deal.",
-    example1:
-      "That shady Uber driver took me for a ride—drove me around Warsaw hood blasting polka remixes while my bourbon buzz wore off.",
-  },
-  {
-    id: 6,
-    word: "embellishment",
+    id: 23,
+    word: "picture",
     explanation:
-      "An added detail that makes a story more interesting, sometimes exaggerated.",
-    example: "His fishing story had too many embellishments to be true.",
+      "A visual representation created using paint, photography, or other methods.",
+    example: "Let me take a picture of the beautiful sunset.",
     example1:
-      "Her resume's embellishment claimed she coded Next.js apps while wrestling bears in the Mazovia woods.",
+      "The artist's picture captured the raw emotion of the moment perfectly.",
   },
   {
-    id: 7,
-    word: "gross",
-    explanation: "Disgusting or nasty, often about something slimy or yucky.",
-    example: "The gross leftovers in the fridge were growing fur.",
-    example1:
-      "That gross glitch in my React app made buttons fart emojis every time I clicked deploy—like Docker throwing a tantrum.",
+    id: 24,
+    word: "vegetable",
+    explanation:
+      "A plant or part of a plant used as food, typically savory rather than sweet.",
+    example: "You should eat at least five portions of vegetables every day.",
+    example1: "The restaurant sources its vegetables from local organic farms.",
   },
   {
-    id: 8,
-    word: "to resemble",
-    explanation: "To look like or be similar to someone or something.",
-    example: "She resembles her mom a lot in photos.",
+    id: 25,
+    word: "suite",
+    explanation:
+      "A set of rooms designed for a particular purpose, or a set of matching furniture.",
+    example: "We booked a suite at the hotel for our anniversary weekend.",
     example1:
-      "My TypeScript error messages resemble angry drunk uncles at a whiskey tasting—yelling vague complaints with no fixes.",
+      "The software suite includes programs for word processing, spreadsheets, and presentations.",
   },
   {
-    id: 9,
-    word: "to pull oneself together",
-    explanation: "To calm down and control your emotions after getting upset.",
-    example: "After the bad news, he had to pull himself together quickly.",
+    id: 26,
+    word: "entrepreneur",
+    explanation:
+      "A person who organizes and operates a business, taking on financial risk.",
+    example:
+      "She's a young entrepreneur who started her own tech company at age 22.",
     example1:
-      "After spilling premium bourbon on his keyboard mid-code sprint, he pulled himself together by pretending it was a fancy glitch art install.",
+      "The entrepreneur pitched her innovative idea to several investors.",
   },
   {
-    id: 10,
-    word: "abnormality",
-    explanation: "Something unusual or not normal, like a weird feature.",
-    example: "The doctor checked for any abnormality in the test results.",
+    id: 27,
+    word: "height",
+    explanation: "The measurement of how tall a person or object is.",
+    example: "What's the height of that building? It looks enormous.",
+    example1: "The athlete's height gave him an advantage in basketball.",
+  },
+  {
+    id: 28,
+    word: "queue",
+    explanation: "A line of people or vehicles waiting for something.",
+    example: "There was a long queue outside the cinema for the new movie.",
     example1:
-      "The abnormality in my flashcard app? It quizzes you on words while animating dancing vodka bottles with Framer Motion.",
+      "Customers joined the virtual queue online before the product launch.",
+  },
+  {
+    id: 29,
+    word: "almond",
+    explanation:
+      "An edible oval nut with a hard shell, or the tree that produces it.",
+    example: "Would you like some almond milk in your coffee?",
+    example1: "The cake was decorated with sliced almonds and fresh berries.",
+  },
+  {
+    id: 30,
+    word: "comfortable",
+    explanation:
+      "Providing physical ease and relaxation; free from stress or discomfort.",
+    example: "These shoes are very comfortable for walking long distances.",
+    example1:
+      "She felt comfortable enough with the team to share her honest opinion.",
   },
 ];
 

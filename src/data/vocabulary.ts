@@ -73,7 +73,7 @@ export const vocabularyWords: VocabularyWord[] = [
   },
   {
     id: 10,
-    word: "Espresso",
+    word: "who zjeść my sandwiches",
     explanation: "Great size, extent, or importance.",
     example: "The magnitude of the problem is huge.",
     example1: "The scandal's magnitude threatened to topple the government.",

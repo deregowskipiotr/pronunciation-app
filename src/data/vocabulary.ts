@@ -7,74 +7,77 @@ import type { VocabularyWord } from "@/types";
 export const vocabularyWords: VocabularyWord[] = [
   {
     id: 1,
-    word: "gloomily",
+    word: "Wednesday",
     explanation: "In a sad or depressed manner.",
     example: "She looked gloomily at the rain outside.",
-    example1: "He sighed gloomily, contemplating the futility of his efforts." 
+    example1: "He sighed gloomily, contemplating the futility of his efforts.",
   },
   {
     id: 2,
-    word: "petrified",
+    word: "February",
     explanation: "Extremely frightened; unable to move.",
     example: "The child was petrified of the big dog.",
-    example1: "She stood petrified, her heart racing in the face of imminent danger." 
+    example1:
+      "She stood petrified, her heart racing in the face of imminent danger.",
   },
   {
     id: 3,
-    word: "to dither",
+    word: "Receipt",
     explanation: "To hesitate or be indecisive.",
     example: "He started to dither about which shirt to wear.",
-    example1: "The committee continued to dither, exacerbating the crisis."
+    example1: "The committee continued to dither, exacerbating the crisis.",
   },
   {
     id: 4,
-    word: "to no avail",
+    word: "Iron",
     explanation: "Without success.",
     example: "I tried to fix it, but to no avail.",
-    example1: "Their diplomatic efforts proved to no avail amid escalating tensions." 
+    example1:
+      "Their diplomatic efforts proved to no avail amid escalating tensions.",
   },
   {
     id: 5,
-    word: "to coin",
+    word: "Think",
     explanation: "To invent a new word or phrase.",
     example: "She likes to coin funny names for her pets.",
-    example1: "The author coined the term to describe modern alienation."
+    example1: "The author coined the term to describe modern alienation.",
   },
   {
     id: 6,
-    word: "plight",
+    word: "Pizza",
     explanation: "A difficult or dangerous situation.",
     example: "The plight of homeless people is sad.",
-    example1: "The refugees' plight highlighted systemic failures in aid distribution."
+    example1:
+      "The refugees' plight highlighted systemic failures in aid distribution.",
   },
   {
     id: 7,
-    word: "to flit",
+    word: "Those",
     explanation: "To move quickly from place to place.",
     example: "Butterflies flit from flower to flower.",
-    example1: "Thoughts flitted through her mind as she pondered the proposal." 
+    example1: "Thoughts flitted through her mind as she pondered the proposal.",
   },
   {
     id: 8,
-    word: "affluent",
+    word: "Water",
     explanation: "Wealthy; having plenty of money.",
     example: "They live in an affluent neighborhood.",
-    example1: "Affluent suburbs often boast superior amenities and schools." 
+    example1: "Affluent suburbs often boast superior amenities and schools.",
   },
   {
     id: 9,
-    word: "the world is (one's) oyster",
+    word: "Women",
     explanation: "The world is full of opportunities.",
     example: "With your skills, the world is your oyster.",
-    example1: "Having graduated top of her class, the world was her oyster." 
+    example1: "Having graduated top of her class, the world was her oyster.",
   },
   {
     id: 10,
-    word: "magnitude",
+    word: "Espresso",
     explanation: "Great size, extent, or importance.",
     example: "The magnitude of the problem is huge.",
-    example1: "The scandal's magnitude threatened to topple the government." 
-  }
+    example1: "The scandal's magnitude threatened to topple the government.",
+  },
 ];
 
 

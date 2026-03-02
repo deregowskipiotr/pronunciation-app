@@ -7,76 +7,96 @@ import type { VocabularyWord } from "@/types";
 export const vocabularyWords: VocabularyWord[] = [
   {
     id: 1,
-    word: "Wednesday",
-    explanation: "In a sad or depressed manner.",
-    example: "She looked gloomily at the rain outside.",
-    example1: "He sighed gloomily, contemplating the futility of his efforts.",
+    word: "benevolence",
+    explanation: "Kindness, goodwill, or a desire to do good for others",
+    example:
+      "The old woman's benevolence was clear when she helped her neighbor with groceries every week.",
+    example1:
+      "The philanthropist's benevolence extended beyond mere financial contributions, encompassing genuine mentorship and community engagement.",
   },
   {
     id: 2,
-    word: "February",
-    explanation: "Extremely frightened; unable to move.",
-    example: "The child was petrified of the big dog.",
+    word: "phony",
+    explanation: "Fake, not genuine, pretending to be something you're not",
+    example:
+      "I don't trust him - his smile looks phony, like he's pretending to be nice.",
     example1:
-      "She stood petrified, her heart racing in the face of imminent danger.",
+      "The art dealer was exposed for selling phony masterpieces, complete with forged certificates of authenticity.",
   },
   {
     id: 3,
-    word: "Receipt",
-    explanation: "To hesitate or be indecisive.",
-    example: "He started to dither about which shirt to wear.",
-    example1: "The committee continued to dither, exacerbating the crisis.",
+    word: "noble",
+    explanation: "Having high moral qualities, showing unselfish behavior",
+    example:
+      "It was noble of her to give up her seat on the crowded bus to the pregnant woman.",
+    example1:
+      "His noble pursuit of social justice, despite personal sacrifice, earned him respect across political divides.",
   },
   {
     id: 4,
-    word: "Iron",
-    explanation: "Without success.",
-    example: "I tried to fix it, but to no avail.",
+    word: "gullibility",
+    explanation: "The tendency to believe things too easily and be tricked",
+    example:
+      "His gullibility made him an easy target for online scammers selling fake products.",
     example1:
-      "Their diplomatic efforts proved to no avail amid escalating tensions.",
+      "The company's marketing strategy deliberately exploited consumers' gullibility through misleading health claims.",
   },
   {
     id: 5,
-    word: "Think",
-    explanation: "To invent a new word or phrase.",
-    example: "She likes to coin funny names for her pets.",
-    example1: "The author coined the term to describe modern alienation.",
+    word: "ostensibly",
+    explanation: "Apparently, seemingly (but maybe not really)",
+    example:
+      "He went to the library, ostensibly to study, but actually to meet his friends.",
+    example1:
+      "The meeting was ostensibly about budget planning, though its true purpose was to discuss leadership restructuring.",
   },
   {
     id: 6,
-    word: "Pizza",
-    explanation: "A difficult or dangerous situation.",
-    example: "The plight of homeless people is sad.",
+    word: "sham",
+    explanation: "Something false that pretends to be real, a hoax",
+    example:
+      "The TV competition turned out to be a sham - the winners were chosen before the show started.",
     example1:
-      "The refugees' plight highlighted systemic failures in aid distribution.",
+      "The clinical trial was exposed as a complete sham, with fabricated data and undisclosed conflicts of interest.",
   },
   {
     id: 7,
-    word: "Those",
-    explanation: "To move quickly from place to place.",
-    example: "Butterflies flit from flower to flower.",
-    example1: "Thoughts flitted through her mind as she pondered the proposal.",
+    word: "gloat (over somebody/something)",
+    explanation:
+      "To show too much satisfaction about your success or someone else's failure",
+    example:
+      "I know you won, but please don't gloat over my loss - it's not nice.",
+    example1:
+      "Rather than gloating over his rival's dismissal, he maintained a dignified silence that earned him respect.",
   },
   {
     id: 8,
-    word: "Water",
-    explanation: "Wealthy; having plenty of money.",
-    example: "They live in an affluent neighborhood.",
-    example1: "Affluent suburbs often boast superior amenities and schools.",
+    word: "to barrage",
+    explanation:
+      "To attack or overwhelm with many things at once (questions, criticisms, etc.)",
+    example:
+      "The reporters barraged the actor with questions about his private life as he left the theater.",
+    example1:
+      "During the press conference, the CEO was barraged with hostile questions regarding the company's environmental violations.",
   },
   {
     id: 9,
-    word: "Women",
-    explanation: "The world is full of opportunities.",
-    example: "With your skills, the world is your oyster.",
-    example1: "Having graduated top of her class, the world was her oyster.",
+    word: "dubious",
+    explanation: "Doubtful, uncertain, or probably not honest or true",
+    example:
+      "I'm dubious about his promises - he said he'd help before and never did.",
+    example1:
+      "The committee viewed his proposal with dubious skepticism, noting several inconsistencies in his methodology.",
   },
   {
     id: 10,
-    word: "who zjeść my sandwiches",
-    explanation: "Great size, extent, or importance.",
-    example: "The magnitude of the problem is huge.",
-    example1: "The scandal's magnitude threatened to topple the government.",
+    word: "to cash in on somebody/something",
+    explanation:
+      "To make money from a situation or person, often in a way that's unfair",
+    example:
+      "After the singer died, many people tried to cash in on his memory by selling fake souvenirs.",
+    example1:
+      "Influencers rushed to cash in on the viral trend, producing sponsored content before public interest inevitably waned.",
   },
 ];
 

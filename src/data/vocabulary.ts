@@ -7,96 +7,86 @@ import type { VocabularyWord } from "@/types";
 export const vocabularyWords: VocabularyWord[] = [
   {
     id: 1,
-    word: "benevolence",
-    explanation: "Kindness, goodwill, or a desire to do good for others",
-    example:
-      "The old woman's benevolence was clear when she helped her neighbor with groceries every week.",
+    word: "I will call you tomorrow.",
+    explanation:
+      "will → would / tomorrow → the next day (future time reference changes)",
+    example: "He said he would call me the next day.",
     example1:
-      "The philanthropist's benevolence extended beyond mere financial contributions, encompassing genuine mentorship and community engagement.",
+      "He assured me that he would contact me the following day without fail.",
   },
   {
     id: 2,
-    word: "phony",
-    explanation: "Fake, not genuine, pretending to be something you're not",
-    example:
-      "I don't trust him - his smile looks phony, like he's pretending to be nice.",
+    word: "I must finish this report today.",
+    explanation: "must → had to (obligation in the past) / today → that day",
+    example: "She said she had to finish the report that day.",
     example1:
-      "The art dealer was exposed for selling phony masterpieces, complete with forged certificates of authenticity.",
+      "She emphasized that it was absolutely essential for her to complete the report by the end of that day.",
   },
   {
     id: 3,
-    word: "noble",
-    explanation: "Having high moral qualities, showing unselfish behavior",
-    example:
-      "It was noble of her to give up her seat on the crowded bus to the pregnant woman.",
+    word: "I can speak three languages.",
+    explanation: "can → could (ability in the past remains)",
+    example: "He told me he could speak three languages.",
     example1:
-      "His noble pursuit of social justice, despite personal sacrifice, earned him respect across political divides.",
+      "He mentioned during the interview that he was proficient in three different languages.",
   },
   {
     id: 4,
-    word: "gullibility",
-    explanation: "The tendency to believe things too easily and be tricked",
-    example:
-      "His gullibility made him an easy target for online scammers selling fake products.",
+    word: "I am working on the project now.",
+    explanation: "present continuous → past continuous / now → then",
+    example: "She said she was working on the project then.",
     example1:
-      "The company's marketing strategy deliberately exploited consumers' gullibility through misleading health claims.",
+      "She explained that she was currently dedicating all her efforts to completing the project.",
   },
   {
     id: 5,
-    word: "ostensibly",
-    explanation: "Apparently, seemingly (but maybe not really)",
-    example:
-      "He went to the library, ostensibly to study, but actually to meet his friends.",
+    word: "I have never been to Paris.",
+    explanation: "present perfect → past perfect (backshift)",
+    example: "He said he had never been to Paris.",
     example1:
-      "The meeting was ostensibly about budget planning, though its true purpose was to discuss leadership restructuring.",
+      "He confessed that he had never had the opportunity to visit Paris despite his desire to go there.",
   },
   {
     id: 6,
-    word: "sham",
-    explanation: "Something false that pretends to be real, a hoax",
-    example:
-      "The TV competition turned out to be a sham - the winners were chosen before the show started.",
+    word: "Please don't tell anyone.",
+    explanation: "imperative → ask/tell + infinitive (reporting requests)",
+    example: "She asked me not to tell anyone.",
     example1:
-      "The clinical trial was exposed as a complete sham, with fabricated data and undisclosed conflicts of interest.",
+      "She begged me to keep the information confidential and not to disclose it to anyone.",
   },
   {
     id: 7,
-    word: "gloat (over somebody/something)",
+    word: "I may arrive late tonight.",
     explanation:
-      "To show too much satisfaction about your success or someone else's failure",
-    example:
-      "I know you won, but please don't gloat over my loss - it's not nice.",
+      "may → might (possibility becomes less certain) / tonight → that night",
+    example: "He said he might arrive late that night.",
     example1:
-      "Rather than gloating over his rival's dismissal, he maintained a dignified silence that earned him respect.",
+      "He warned us that there was a possibility he would be delayed and might not arrive until much later that evening.",
   },
   {
     id: 8,
-    word: "to barrage",
-    explanation:
-      "To attack or overwhelm with many things at once (questions, criticisms, etc.)",
-    example:
-      "The reporters barraged the actor with questions about his private life as he left the theater.",
+    word: "I bought this car here yesterday.",
+    explanation: "this → that / here → there / yesterday → the day before",
+    example: "He said he had bought that car there the day before.",
     example1:
-      "During the press conference, the CEO was barraged with hostile questions regarding the company's environmental violations.",
+      "He mentioned that he had purchased that vehicle at the local dealership just the previous day.",
   },
   {
     id: 9,
-    word: "dubious",
-    explanation: "Doubtful, uncertain, or probably not honest or true",
-    example:
-      "I'm dubious about his promises - he said he'd help before and never did.",
+    word: "Why are you laughing?",
+    explanation:
+      "questions → asked + if/whether (yes/no) or question word (wh-questions)",
+    example: "She asked me why I was laughing.",
     example1:
-      "The committee viewed his proposal with dubious skepticism, noting several inconsistencies in his methodology.",
+      "She inquired curiously what had amused me so much at that particular moment.",
   },
   {
     id: 10,
-    word: "to cash in on somebody/something",
-    explanation:
-      "To make money from a situation or person, often in a way that's unfair",
-    example:
-      "After the singer died, many people tried to cash in on his memory by selling fake souvenirs.",
+    word: "I should exercise more often.",
+    explanation: "should often stays the same (advice/suggestion)",
+    example: "He said he should exercise more often.",
     example1:
-      "Influencers rushed to cash in on the viral trend, producing sponsored content before public interest inevitably waned.",
+      "He admitted that he really ought to incorporate more physical activity into his daily routine.",
   },
 ];
 

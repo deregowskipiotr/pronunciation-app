@@ -48,7 +48,7 @@ export const Card = ({
               style={{ backfaceVisibility: "hidden" }}
             >
               {/* TITLE - Fixed top-center position */}
-              <div className="row-start-1 w-full flex justify-center pt-8 md:pt-16">
+              <div className="row-start-1 w-full flex justify-center pt-8 md:pt-16 px-4">
                 <motion.h2
                   className="text-xl md:text-3xl font-serif uppercase italic text-blue-500/50 drop-shadow-lg text-center max-w-md"
                   initial={{ opacity: 0, scale: 0.95 }}

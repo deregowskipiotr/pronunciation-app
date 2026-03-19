@@ -126,8 +126,8 @@ export const SpeechFlashcard = () => {
   }, [tts, currentWord]);
 
   const handleSpeakExample = useCallback(() => {
-    if (tts.supported && currentWord?.example) {
-      tts.speakExample(currentWord.example);
+    if (tts.supported && currentWord?.example1) {
+      tts.speakExample(currentWord.example1);
     }
   }, [tts, currentWord]);
 

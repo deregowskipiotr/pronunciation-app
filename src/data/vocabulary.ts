@@ -15,95 +15,74 @@ export interface Flashcard {
 export const vocabularyWords: VocabularyWord[] = [
   {
     id: 1,
-    word: "to cease",
-    explanation: "To stop or come to an end",
-    example:
-      "The company decided to cease production of the old model because nobody was buying it anymore.",
-    example1:
-      "Diplomatic efforts to cease hostilities intensified as civilian casualties continued to mount in the conflict zone.",
+    word: "transfixed",
+    explanation: "unable to move or stop looking at something because you are so surprised, interested, or frightened",
+    example: "She was transfixed by the magician's performance and couldn't look away.",
+    example1: "The entire audience remained transfixed as the orchestra delivered a breathtaking rendition of the symphony."
   },
   {
     id: 2,
-    word: "staggering",
-    explanation: "Extremely surprising, shocking, or large",
-    example:
-      "The cost of renovating the old house was staggering - we spent three times more than we expected.",
-    example1:
-      "The report revealed staggering inequalities in wealth distribution, with the top 1% controlling more than half of global assets.",
+    word: "vertiginous",
+    explanation: "causing or experiencing a feeling of spinning and dizziness, often from great heights",
+    example: "The view from the top of the skyscraper was vertiginous and made me step back.",
+    example1: "The country's vertiginous economic growth over the past decade has astonished international analysts."
   },
   {
     id: 3,
-    word: "paramount",
-    explanation: "More important than anything else; supreme",
-    example:
-      "When driving in bad weather, safety is paramount - you should always slow down.",
-    example1:
-      "In diplomatic negotiations, maintaining mutual respect is paramount to achieving a sustainable long-term agreement.",
+    word: "to unveil",
+    explanation: "to show or make known something new for the first time",
+    example: "The company will unveil its new smartphone model at the conference tomorrow.",
+    example1: "The museum director will unveil the recently restored Renaissance masterpiece at a private ceremony next week."
   },
   {
     id: 4,
-    word: "to ascertain",
-    explanation: "To find out or discover something with certainty",
-    example:
-      "The police are trying to ascertain what happened at the party last night.",
-    example1:
-      "Researchers conducted extensive interviews to ascertain the long-term effects of remote work on employee well-being.",
+    word: "audacious",
+    explanation: "showing a willingness to take bold risks or behaving in a shocking and disrespectful way",
+    example: "The young artist made an audacious decision to paint the entire mural in just one day.",
+    example1: "The entrepreneur's audacious plan to colonize Mars captured the imagination of millions worldwide."
   },
   {
     id: 5,
-    word: "constituent",
-    explanation:
-      "One of the parts that form something; or a voter in a particular area",
-    example:
-      "The basic constituents of this sauce are tomatoes, garlic, and olive oil.",
-    example1:
-      "The politician held a town hall meeting to address her constituents' growing concerns about local school funding.",
+    word: "luminary",
+    explanation: "a person who is famous and highly respected in a particular field or profession",
+    example: "The conference will feature several luminaries from the world of science and technology.",
+    example1: "Nobel laureates and other distinguished luminaries gathered at the summit to address climate change."
   },
   {
     id: 6,
-    word: "tangible",
-    explanation: "Real and visible; able to be touched or felt",
-    example:
-      "After months of work, we finally saw tangible results - the garden was full of flowers.",
-    example1:
-      "The company's rebranding efforts yielded tangible benefits, including a 40% increase in customer engagement within six months.",
+    word: "dweller",
+    explanation: "a person or animal that lives in a particular type of place",
+    example: "City dwellers often dream of moving to the countryside for a quieter life.",
+    example1: "The forest dwellers have developed an intricate understanding of medicinal plants over generations."
   },
   {
     id: 7,
-    word: "to be slated",
-    explanation: "To be scheduled or planned for a future event",
-    example:
-      "The new shopping center is slated to open next spring if construction goes well.",
-    example1:
-      "The controversial legislation is slated for parliamentary debate next month, despite widespread public opposition.",
+    word: "in dire need of",
+    explanation: "requiring something very urgent and serious attention or help",
+    example: "After hiking for hours without water, they were in dire need of rest and hydration.",
+    example1: "The crumbling infrastructure is in dire need of comprehensive renovation before it becomes a safety hazard."
   },
   {
     id: 8,
-    word: "shrouded in mystery",
-    explanation: "Covered or hidden so that little is known about something",
-    example:
-      "The disappearance of the pilot remains shrouded in mystery - nobody knows what happened to him.",
-    example1:
-      "The artist's creative process was deliberately shrouded in mystery, adding to the mystique surrounding her most famous works.",
+    word: "to harness",
+    explanation: "to control and use something natural, especially energy or power, for a particular purpose",
+    example: "Engineers are finding new ways to harness solar energy for everyday use.",
+    example1: "The pioneering technology enables farmers to harness rainwater efficiently during the monsoon season."
   },
   {
     id: 9,
-    word: "laden",
-    explanation: "Heavily loaded with something, or full of something",
-    example:
-      "The Christmas tree was laden with decorations and colorful lights.",
-    example1:
-      "The documentary was laden with emotional testimony from survivors, making it difficult to watch but impossible to forget.",
+    word: "to bid farewell",
+    explanation: "to say goodbye to someone, often with good wishes",
+    example: "The whole office gathered to bid farewell to their retiring manager.",
+    example1: "After three decades of service, colleagues from around the world assembled to bid farewell to the beloved professor."
   },
   {
     id: 10,
-    word: "sweltering",
-    explanation: "Extremely and uncomfortably hot",
-    example:
-      "On that sweltering summer day, everyone stayed inside with the air conditioning on full blast.",
-    example1:
-      "Despite the sweltering conditions in the packed stadium, spectators remained remarkably enthusiastic throughout the match.",
-  },
+    word: "woe",
+    explanation: "great sadness or problems that cause suffering",
+    example: "She listened patiently as her friend shared all his financial woes.",
+    example1: "The novel's protagonist endured countless woes, from betrayal to bankruptcy, before finding redemption."
+  }
 ];
 
 

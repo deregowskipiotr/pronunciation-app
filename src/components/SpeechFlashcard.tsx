@@ -215,27 +215,20 @@ export const SpeechFlashcard = () => {
         {/* LEFT COLUMN - Card only, full height */}
         <div className="w-full lg:w-1/2 flex items-stretch">
           <div className="w-full">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={currentWordIndex}
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: 20 }}
-                transition={{ duration: 0.3 }}
-                className="w-full h-full"
-              >
-                <Card
-                  word={currentWord}
-                  isFlipped={isCardFlipped}
-                  onFlip={handleCardFlip}
-                />
-              </motion.div>
-            </AnimatePresence>
+            <div className="w-full h-full">
+              <Card
+                word={currentWord}
+                isFlipped={isCardFlipped}
+                onFlip={handleCardFlip}
+                onNext={handleNextWord}
+                onPrevious={handlePreviousWord}
+              />
+            </div>
           </div>
         </div>
 
         {/* RIGHT COLUMN - Control Panel, same height */}
-        <div className="lg:w-1/2 flex flex-col justify-between min-h-100 md:min-h-120 bg-slate-800/20 rounded-md p-4 md:p-6 border border-slate-700/50">
+        <div className="lg:w-1/2 flex flex-col min-h-min md:min-h-120 bg-slate-800/20 rounded-md p-4 md:p-6 border border-slate-700/50">
           {/* TOP SECTION - Stats & Progress */}
           <div className="space-y-3">
             {/* Unified Button Row - VoiceSelector & Reset */}
@@ -261,7 +254,7 @@ export const SpeechFlashcard = () => {
             </div>
 
             {/* Stats Cards - Horizontal */}
-            <div className="grid grid-cols-3 gap-2 md:gap-3">
+            <div className="hidden md:grid grid-cols-3 gap-2 md:gap-3">
               <div className="bg-slate-800/50 p-2 md:p-3 rounded-md border border-slate-700/50 text-center">
                 <div className="text-[10px] md:text-xs text-slate-400 mb-0.5 md:mb-1">
                   Accuracy
@@ -308,56 +301,74 @@ export const SpeechFlashcard = () => {
           </div>
 
           {/* MIDDLE SECTION - TTS Buttons + Mic */}
-          <div className="space-y-5 md:space-y-6 py-3 md:py-4">
-            {/* TTS Buttons - equal sizing */}
-            <div className="flex gap-2 md:gap-3">
+          <div className="pt-4 md:pt-0 flex flex-col flex-1 w-full">
+            {/* MOBILE VIEW (Hear | Speak | Example inline) */}
+            <div className="flex md:hidden gap-2">
               <motion.button
                 onClick={handleSpeakWord}
                 disabled={tts.isSpeaking}
-                className="flex-1 px-2 py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 text-[12px] md:text-sm font-medium transition-colors cursor-pointer whitespace-nowrap"
+                className="flex-1 px-2 py-2 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 text-[12px] font-medium transition-colors cursor-pointer whitespace-nowrap"
               >
-                🔊 {tts.isSpeaking ? "Speaking..." : "Hear Word"}
+                🔊 {tts.isSpeaking ? "..." : "Hear"}
+              </motion.button>
+
+              <motion.button
+                onClick={stt.state.isListening ? handleStopListening : handleStartListening}
+                disabled={tts.isSpeaking || showFeedback}
+                className={`flex-1 px-2 py-2 border rounded-md text-[12px] font-medium transition-colors cursor-pointer whitespace-nowrap ${
+                  stt.state.isListening 
+                    ? "bg-red-500/20 hover:bg-red-500/30 border-red-500/50 text-red-400" 
+                    : "bg-slate-800/50 hover:bg-slate-700/50 border-slate-700/50 text-slate-400 hover:text-slate-300"
+                }`}
+              >
+                🎤 {stt.state.isListening ? "Listening..." : "Speak"}
               </motion.button>
 
               <motion.button
                 onClick={handleSpeakExample}
                 disabled={tts.isSpeaking}
-                className="flex-1 px-2 py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 text-[12px] md:text-sm font-medium transition-colors cursor-pointer whitespace-nowrap"
+                className="flex-1 px-2 py-2 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 text-[12px] font-medium transition-colors cursor-pointer whitespace-nowrap"
               >
                 💬 Example
               </motion.button>
             </div>
 
-            {/* Mic Button - Centered */}
-            <div className="flex flex-col items-center gap-2">
-              <MicButton
-                isListening={stt.state.isListening}
-                onStart={handleStartListening}
-                onStop={handleStopListening}
-                disabled={tts.isSpeaking || showFeedback}
-              />
-              <span className="text-[11px] md:text-xs text-slate-400">
-                {stt.state.isListening
-                  ? "🎤 Listening... Speak now"
-                  : "Tap the microphone to speak"}
-              </span>
-            </div>
-          </div>
+            {/* DESKTOP VIEW */}
+            <div className="hidden md:flex flex-col flex-1">
+              {/* Mic Button - Centered in free space */}
+              <div className="flex-1 flex flex-col items-center justify-center gap-2">
+                <MicButton
+                  isListening={stt.state.isListening}
+                  onStart={handleStartListening}
+                  onStop={handleStopListening}
+                  disabled={tts.isSpeaking || showFeedback}
+                />
+                <span className="text-xs text-slate-400">
+                  {stt.state.isListening
+                    ? "🎤 Listening... Speak now"
+                    : "Tap the microphone to speak"}
+                </span>
+              </div>
 
-          {/* BOTTOM SECTION - Navigation - equal sizing */}
-          <div className="flex gap-2 md:gap-3 pt-3 md:pt-4 border-t border-slate-700/50">
-            <motion.button
-              onClick={handlePreviousWord}
-              className="flex-1 px-2 py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 text-[12px] md:text-sm font-medium transition-colors cursor-pointer whitespace-nowrap"
-            >
-              ← Previous Word
-            </motion.button>
-            <motion.button
-              onClick={handleNextWord}
-              className="flex-1 px-2 py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 text-[12px] md:text-sm font-medium transition-colors cursor-pointer whitespace-nowrap"
-            >
-              Next Word →
-            </motion.button>
+              {/* TTS Buttons - Stuck to bottom */}
+              <div className="flex gap-3 pt-4">
+                <motion.button
+                  onClick={handleSpeakWord}
+                  disabled={tts.isSpeaking}
+                  className="flex-1 px-3 py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 text-sm font-medium transition-colors cursor-pointer whitespace-nowrap"
+                >
+                  🔊 {tts.isSpeaking ? "Speaking..." : "Hear Word"}
+                </motion.button>
+
+                <motion.button
+                  onClick={handleSpeakExample}
+                  disabled={tts.isSpeaking}
+                  className="flex-1 px-3 py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 text-sm font-medium transition-colors cursor-pointer whitespace-nowrap"
+                >
+                  💬 Example
+                </motion.button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

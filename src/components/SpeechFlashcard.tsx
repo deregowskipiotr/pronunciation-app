@@ -214,21 +214,18 @@ export const SpeechFlashcard = () => {
       <div className="flex flex-col lg:flex-row gap-4 w-full md:pt-4 md:px-4">
         {/* LEFT COLUMN - Card only, full height */}
         <div className="w-full lg:w-1/2 flex items-stretch">
-          <div className="w-full">
-            <div className="w-full h-full">
-              <Card
-                word={currentWord}
-                isFlipped={isCardFlipped}
-                onFlip={handleCardFlip}
-                onNext={handleNextWord}
-                onPrevious={handlePreviousWord}
-              />
-            </div>
-          </div>
+          <Card
+            word={currentWord}
+            isFlipped={isCardFlipped}
+            onFlip={handleCardFlip}
+            onNext={handleNextWord}
+            onPrevious={handlePreviousWord}
+            className="w-full h-full flex-1"
+          />
         </div>
 
         {/* RIGHT COLUMN - Control Panel, same height */}
-        <div className="lg:w-1/2 flex flex-col min-h-min md:min-h-120 bg-slate-800/20 rounded-md p-4 md:p-6 border border-slate-700/50">
+        <div className="w-full lg:w-1/2 flex flex-col flex-1 h-full min-h-[420px] md:min-h-[480px] bg-slate-800/20 rounded-md px-2 py-4 md:px-4 md:py-6 border border-slate-700/50">
           {/* TOP SECTION - Stats & Progress */}
           <div className="space-y-3">
             {/* Unified Button Row - VoiceSelector & Reset */}

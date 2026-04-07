@@ -41,10 +41,10 @@ export const Card = ({
   return (
     <div
       className={`
-        relative w-full min-h-100 md:min-h-129 
+        relative w-full h-full min-h-[420px] md:min-h-[480px]
         bg-slate-900/50 backdrop-blur-sm 
         border border-slate-700/50
-        rounded-md shadow-lg p-8
+        rounded-md shadow-lg px-2 py-6 md:px-4 md:py-8
         transition-colors duration-500
         cursor-pointer
         ${className}
@@ -54,7 +54,7 @@ export const Card = ({
       aria-label={`Flashcard for ${word.word}. ${isFlipped ? "Showing definition" : "Showing word"}. Press space or enter to flip.`}
     >
       {/* MAIN CONTENT AREA */}
-      <div className="absolute inset-0 p-6 md:px-4 md:py-1 pointer-events-none">
+      <div className="absolute inset-0 px-2 py-4 md:px-4 md:py-6 pointer-events-none">
         {/* Static Title - always visible, no animation */}
         <div className="absolute top-0 left-0 right-0 pt-4 md:pt-6 pointer-events-none">
           <h2 className="text-xl md:text-3xl font-serif uppercase italic text-blue-500/50 drop-shadow-lg text-center max-w-md mx-auto">
@@ -82,7 +82,7 @@ export const Card = ({
           >
             {/* ──── FRONT FACE (Explanation) ──── */}
             <div
-              className="absolute inset-0 w-full h-full flex items-center justify-center px-4"
+              className="absolute inset-0 w-full h-full flex items-center justify-center px-2 md:px-4"
               style={{ backfaceVisibility: "hidden" }}
             >
               <AnimatePresence mode="wait">
@@ -104,7 +104,7 @@ export const Card = ({
 
             {/* ──── BACK FACE (Examples) ──── */}
             <div
-              className="absolute inset-0 w-full h-full flex items-center justify-center px-4"
+              className="absolute inset-0 w-full h-full flex items-center justify-center px-2 md:px-4"
               style={{
                 backfaceVisibility: "hidden",
                 transform: "rotateY(180deg)",
@@ -118,7 +118,7 @@ export const Card = ({
                   animate="center"
                   exit="exit"
                   transition={{ ...textTransition }}
-                  className="w-full max-w-md space-y-4 px-2"
+                  className="w-full max-w-md space-y-4"
                 >
                   <div className="bg-slate-800/30 p-4 md:p-6 rounded-md">
                     <p className="text-sm md:text-[18px] font-medium text-primary-400 mb-2">

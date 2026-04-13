@@ -15,74 +15,74 @@ export interface Flashcard {
 export const vocabularyWords: VocabularyWord[] = [
   {
     id: 1,
-    word: "transfixed",
-    explanation: "unable to move or stop looking at something because you are so surprised, interested, or frightened",
-    example: "She was transfixed by the magician's performance and couldn't look away.",
-    example1: "The entire audience remained transfixed as the orchestra delivered a breathtaking rendition of the symphony."
+    word: "to loom",
+    explanation: "to appear as a large, unclear, and often threatening shape; (of an event) to be imminent and cause worry",
+    example: "A big storm was looming on the horizon, so we decided to stay home.",
+    example1: "The prospect of mass layoffs loomed over the company, casting a pall on the annual meeting.",
   },
   {
     id: 2,
-    word: "vertiginous",
-    explanation: "causing or experiencing a feeling of spinning and dizziness, often from great heights",
-    example: "The view from the top of the skyscraper was vertiginous and made me step back.",
-    example1: "The country's vertiginous economic growth over the past decade has astonished international analysts."
+    word: "augury",
+    explanation: "a sign of what will happen in the future; an omen",
+    example: "They saw the rainbow as a good augury for their journey.",
+    example1: "The sudden drop in consumer confidence was an ominous augury of the impending recession.",
   },
   {
     id: 3,
-    word: "to unveil",
-    explanation: "to show or make known something new for the first time",
-    example: "The company will unveil its new smartphone model at the conference tomorrow.",
-    example1: "The museum director will unveil the recently restored Renaissance masterpiece at a private ceremony next week."
+    word: "to aggravate",
+    explanation: "to make a problem or situation worse; to annoy someone",
+    example: "Don't scratch the mosquito bite, or you'll aggravate the itching.",
+    example1: "His dismissive comments only served to aggravate the already tense diplomatic negotiations.",
   },
   {
     id: 4,
-    word: "audacious",
-    explanation: "showing a willingness to take bold risks or behaving in a shocking and disrespectful way",
-    example: "The young artist made an audacious decision to paint the entire mural in just one day.",
-    example1: "The entrepreneur's audacious plan to colonize Mars captured the imagination of millions worldwide."
+    word: "to prohibit",
+    explanation: "to officially forbid something by law, rule, or authority",
+    example: "The school strictly prohibits students from using phones during class.",
+    example1: "International law unequivocally prohibits the use of chemical weapons under any circumstances.",
   },
   {
     id: 5,
-    word: "luminary",
-    explanation: "a person who is famous and highly respected in a particular field or profession",
-    example: "The conference will feature several luminaries from the world of science and technology.",
-    example1: "Nobel laureates and other distinguished luminaries gathered at the summit to address climate change."
+    word: "to delineate",
+    explanation: "to describe, outline, or mark the boundaries of something precisely",
+    example: "The map clearly delineates the borders between the two countries.",
+    example1: "In her latest paper, the researcher meticulously delineates the causal mechanisms driving climate change.",
   },
   {
     id: 6,
-    word: "dweller",
-    explanation: "a person or animal that lives in a particular type of place",
-    example: "City dwellers often dream of moving to the countryside for a quieter life.",
-    example1: "The forest dwellers have developed an intricate understanding of medicinal plants over generations."
+    word: "legitimate",
+    explanation: "allowed by law or rules; reasonable and acceptable",
+    example: "You have a legitimate reason to ask for a refund if the product is damaged.",
+    example1: "The government must find a balance between national security and citizens' legitimate expectation of privacy.",
   },
   {
     id: 7,
-    word: "in dire need of",
-    explanation: "requiring something very urgent and serious attention or help",
-    example: "After hiking for hours without water, they were in dire need of rest and hydration.",
-    example1: "The crumbling infrastructure is in dire need of comprehensive renovation before it becomes a safety hazard."
+    word: "inappropriate",
+    explanation: "not suitable, proper, or acceptable in a particular situation",
+    example: "Wearing flip-flops to a job interview is highly inappropriate.",
+    example1: "The CEO resigned after making inappropriate remarks that violated the company's code of conduct.",
   },
   {
     id: 8,
-    word: "to harness",
-    explanation: "to control and use something natural, especially energy or power, for a particular purpose",
-    example: "Engineers are finding new ways to harness solar energy for everyday use.",
-    example1: "The pioneering technology enables farmers to harness rainwater efficiently during the monsoon season."
+    word: "to disclose",
+    explanation: "to reveal or make known information that was previously secret",
+    example: "The doctor cannot disclose your medical records without your permission.",
+    example1: "The whistleblower was protected by law after choosing to disclose classified evidence of fraud.",
   },
   {
     id: 9,
-    word: "to bid farewell",
-    explanation: "to say goodbye to someone, often with good wishes",
-    example: "The whole office gathered to bid farewell to their retiring manager.",
-    example1: "After three decades of service, colleagues from around the world assembled to bid farewell to the beloved professor."
+    word: "primarily",
+    explanation: "mainly; for the most part",
+    example: "The course is primarily designed for beginners, but advanced students can also join.",
+    example1: "While the study focuses primarily on economic factors, it does not entirely disregard sociocultural influences.",
   },
   {
     id: 10,
-    word: "woe",
-    explanation: "great sadness or problems that cause suffering",
-    example: "She listened patiently as her friend shared all his financial woes.",
-    example1: "The novel's protagonist endured countless woes, from betrayal to bankruptcy, before finding redemption."
-  }
+    word: "incentive",
+    explanation: "something that motivates or encourages someone to do something",
+    example: "The company offers a cash incentive for employees who meet their sales targets.",
+    example1: "Tax incentives are often deployed to stimulate investment in renewable energy infrastructure.",
+  },
 ];
 
 

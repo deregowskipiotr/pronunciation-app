@@ -15,74 +15,74 @@ export interface Flashcard {
 export const vocabularyWords: VocabularyWord[] = [
   {
     id: 1,
-    word: "to loom",
-    explanation: "to appear as a large, unclear, and often threatening shape; (of an event) to be imminent and cause worry",
-    example: "A big storm was looming on the horizon, so we decided to stay home.",
-    example1: "The prospect of mass layoffs loomed over the company, casting a pall on the annual meeting.",
+    word: "to flout",
+    explanation: "to intentionally disobey or show no respect for a rule or law",
+    example: "Some drivers continue to flout the speed limit even though they know it's dangerous.",
+    example1: "The corporation's decision to flout environmental regulations was met with widespread public condemnation and subsequent litigation."
   },
   {
     id: 2,
-    word: "augury",
-    explanation: "a sign of what will happen in the future; an omen",
-    example: "They saw the rainbow as a good augury for their journey.",
-    example1: "The sudden drop in consumer confidence was an ominous augury of the impending recession.",
+    word: "entropy",
+    explanation: "a gradual decline into disorder or lack of predictability",
+    example: "If we don't organize the files soon, the whole system will fall into complete entropy.",
+    example1: "The political scientist argued that the nation was experiencing institutional entropy, with long-established norms steadily eroding into chaos."
   },
   {
     id: 3,
-    word: "to aggravate",
-    explanation: "to make a problem or situation worse; to annoy someone",
-    example: "Don't scratch the mosquito bite, or you'll aggravate the itching.",
-    example1: "His dismissive comments only served to aggravate the already tense diplomatic negotiations.",
+    word: "to reign supreme",
+    explanation: "to be the most powerful, important, or impressive in a particular area",
+    example: "When it comes to mobile photography, that brand still reigns supreme over its competitors.",
+    example1: "Despite the influx of innovative startups, the family-owned vineyard reigned supreme, its unparalleled heritage eclipsing any modern marketing campaign."
   },
   {
     id: 4,
-    word: "to prohibit",
-    explanation: "to officially forbid something by law, rule, or authority",
-    example: "The school strictly prohibits students from using phones during class.",
-    example1: "International law unequivocally prohibits the use of chemical weapons under any circumstances.",
+    word: "ruling",
+    explanation: "an official decision made by a judge, court, or authority",
+    example: "The court's ruling stated that the company had to pay compensation to all affected workers.",
+    example1: "The landmark ruling set a legal precedent that would reverberate through the industry's regulatory framework for decades to come."
   },
   {
     id: 5,
-    word: "to delineate",
-    explanation: "to describe, outline, or mark the boundaries of something precisely",
-    example: "The map clearly delineates the borders between the two countries.",
-    example1: "In her latest paper, the researcher meticulously delineates the causal mechanisms driving climate change.",
+    word: "to detain",
+    explanation: "to officially keep someone somewhere, or to delay them from leaving",
+    example: "I'm so sorry I'm late; I was detained at the office by an unexpected phone call.",
+    example1: "Border officials have the discretionary authority to detain individuals should their documentation give rise to any substantive suspicion."
   },
   {
     id: 6,
-    word: "legitimate",
-    explanation: "allowed by law or rules; reasonable and acceptable",
-    example: "You have a legitimate reason to ask for a refund if the product is damaged.",
-    example1: "The government must find a balance between national security and citizens' legitimate expectation of privacy.",
+    word: "to put a finger on something",
+    explanation: "to identify or describe something that feels wrong or different (often used in the negative: 'can't put my finger on it')",
+    example: "There's something different about her haircut, but I can't quite put my finger on it.",
+    example1: "The design is aesthetically pleasing, yet I'm unable to put my finger on precisely what undermines the overall cohesion of the piece."
   },
   {
     id: 7,
-    word: "inappropriate",
-    explanation: "not suitable, proper, or acceptable in a particular situation",
-    example: "Wearing flip-flops to a job interview is highly inappropriate.",
-    example1: "The CEO resigned after making inappropriate remarks that violated the company's code of conduct.",
+    word: "remorse",
+    explanation: "a strong feeling of guilt and regret for something wrong you have done",
+    example: "He showed no remorse for missing the meeting, which really annoyed his manager.",
+    example1: "The defendant's palpable lack of remorse was deemed an aggravating factor during the sentencing phase of the trial."
   },
   {
     id: 8,
-    word: "to disclose",
-    explanation: "to reveal or make known information that was previously secret",
-    example: "The doctor cannot disclose your medical records without your permission.",
-    example1: "The whistleblower was protected by law after choosing to disclose classified evidence of fraud.",
+    word: "untoward",
+    explanation: "unexpected and inappropriate or inconvenient",
+    example: "If you notice anything untoward happening in the building, please report it to security immediately.",
+    example1: "The board assured shareholders that there had been no untoward financial transactions leading up to the merger announcement."
   },
   {
     id: 9,
-    word: "primarily",
-    explanation: "mainly; for the most part",
-    example: "The course is primarily designed for beginners, but advanced students can also join.",
-    example1: "While the study focuses primarily on economic factors, it does not entirely disregard sociocultural influences.",
+    word: "preventive",
+    explanation: "intended to stop something bad from happening before it occurs",
+    example: "The doctor recommended some preventive exercises to help avoid future back pain.",
+    example1: "The administration implemented stringent preventive measures in an effort to forestall any potential breach of data security."
   },
   {
     id: 10,
-    word: "incentive",
-    explanation: "something that motivates or encourages someone to do something",
-    example: "The company offers a cash incentive for employees who meet their sales targets.",
-    example1: "Tax incentives are often deployed to stimulate investment in renewable energy infrastructure.",
-  },
+    word: "to plot",
+    explanation: "to make a secret plan to do something, often harmful or illegal",
+    example: "The group of friends gathered in the kitchen to plot a surprise party for their housemate.",
+    example1: "Whistleblower testimony revealed that senior executives had been plotting to manipulate the company's stock valuation for personal gain."
+  }
 ];
 
 

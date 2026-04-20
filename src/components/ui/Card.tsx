@@ -148,7 +148,7 @@ export const Card = ({
           <div className="w-full flex gap-2 md:gap-3">
             <button
               type="button"
-              className="flex-1 px-2 py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 transition-colors cursor-pointer text-[12px] md:text-sm font-medium whitespace-nowrap"
+              className="flex-1 px-2 py-2 md:py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 transition-colors cursor-pointer text-[12px] md:text-sm font-medium whitespace-nowrap"
               onClick={(e) => { e.stopPropagation(); onPrevious?.(); }}
             >
               <span className="md:hidden">← Prev</span>
@@ -156,7 +156,7 @@ export const Card = ({
             </button>
             <button
               type="button"
-              className="flex-1 flex justify-center items-center gap-1.5 px-2 py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 transition-colors cursor-pointer text-[12px] md:text-sm font-medium whitespace-nowrap"
+              className="flex-1 flex justify-center items-center gap-1.5 px-2 py-2 md:py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 transition-colors cursor-pointer text-[12px] md:text-sm font-medium whitespace-nowrap"
               onClick={(e) => { e.stopPropagation(); onFlip(); }}
             >
               <motion.span
@@ -170,7 +170,7 @@ export const Card = ({
             </button>
             <button
               type="button"
-              className="flex-1 px-2 py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 transition-colors cursor-pointer text-[12px] md:text-sm font-medium whitespace-nowrap"
+              className="flex-1 px-2 py-2 md:py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md text-slate-400 hover:text-slate-300 transition-colors cursor-pointer text-[12px] md:text-sm font-medium whitespace-nowrap"
               onClick={(e) => { e.stopPropagation(); onNext?.(); }}
             >
               <span className="md:hidden">Next →</span>

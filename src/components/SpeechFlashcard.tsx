@@ -239,7 +239,7 @@ export const SpeechFlashcard = () => {
               <div className="flex-1 min-w-0">
                 <motion.button
                   onClick={handleResetSession}
-                  className="w-full flex items-center justify-center gap-1.5 md:gap-2 px-3 py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md shadow-md text-slate-400 hover:text-slate-300 transition-colors cursor-pointer text-[12px] md:text-sm font-medium whitespace-nowrap"
+                  className="w-full flex items-center justify-center gap-1.5 md:gap-2 px-3 py-2 md:py-2.5 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 rounded-md shadow-md text-slate-400 hover:text-slate-300 transition-colors cursor-pointer text-[12px] md:text-sm font-medium whitespace-nowrap"
                 >
                   <span className="text-sm md:text-base">↻</span>
                   <span className="truncate">Reset</span>

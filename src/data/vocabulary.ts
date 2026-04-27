@@ -15,73 +15,73 @@ export interface Flashcard {
 export const vocabularyWords: VocabularyWord[] = [
   {
     id: 1,
-    word: "to flout",
-    explanation: "to intentionally disobey or show no respect for a rule or law",
-    example: "Some drivers continue to flout the speed limit even though they know it's dangerous.",
-    example1: "The corporation's decision to flout environmental regulations was met with widespread public condemnation and subsequent litigation."
+    word: "venturing",
+    explanation: "daring to go somewhere or do something that may be risky or uncertain",
+    example: "After years of working from home, she's finally venturing back into the office a few days a week.",
+    example1: "The multinational corporation is venturing into untapped emerging markets, fully cognizant of the regulatory and logistical hurdles that lie ahead."
   },
   {
     id: 2,
-    word: "entropy",
-    explanation: "a gradual decline into disorder or lack of predictability",
-    example: "If we don't organize the files soon, the whole system will fall into complete entropy.",
-    example1: "The political scientist argued that the nation was experiencing institutional entropy, with long-established norms steadily eroding into chaos."
+    word: "dogged",
+    explanation: "showing persistent determination to continue doing something despite difficulties",
+    example: "Her dogged determination to finish the marathon, even with an injured knee, impressed everyone watching.",
+    example1: "The journalist's dogged pursuit of the truth, in the face of considerable institutional obstruction, ultimately unearthed a scandal of unprecedented proportions."
   },
   {
     id: 3,
-    word: "to reign supreme",
-    explanation: "to be the most powerful, important, or impressive in a particular area",
-    example: "When it comes to mobile photography, that brand still reigns supreme over its competitors.",
-    example1: "Despite the influx of innovative startups, the family-owned vineyard reigned supreme, its unparalleled heritage eclipsing any modern marketing campaign."
+    word: "relayed",
+    explanation: "passed on or communicated information from one person to another",
+    example: "I relayed your message to the team leader, so she should know about the change by now.",
+    example1: "The ambassador relayed the confidential communiqué to the foreign ministry with the utmost discretion, fully aware of its potential diplomatic ramifications."
   },
   {
     id: 4,
-    word: "ruling",
-    explanation: "an official decision made by a judge, court, or authority",
-    example: "The court's ruling stated that the company had to pay compensation to all affected workers.",
-    example1: "The landmark ruling set a legal precedent that would reverberate through the industry's regulatory framework for decades to come."
+    word: "blip",
+    explanation: "a small, temporary problem or change from what is normal or expected",
+    example: "The drop in sales last month was just a blip; overall, the business is doing really well this year.",
+    example1: "The chief economist dismissed the quarterly downturn as a mere statistical blip rather than an indicator of any structural recession."
   },
   {
     id: 5,
-    word: "to detain",
-    explanation: "to officially keep someone somewhere, or to delay them from leaving",
-    example: "I'm so sorry I'm late; I was detained at the office by an unexpected phone call.",
-    example1: "Border officials have the discretionary authority to detain individuals should their documentation give rise to any substantive suspicion."
+    word: "pave the way",
+    explanation: "to create conditions that make it possible for something to happen or succeed later",
+    example: "Learning English well can really pave the way for better job opportunities in the future.",
+    example1: "The groundbreaking bilateral agreement is expected to pave the way for unprecedented economic cooperation between the two historically antagonistic nations."
   },
   {
     id: 6,
-    word: "to put a finger on something",
-    explanation: "to identify or describe something that feels wrong or different (often used in the negative: 'can't put my finger on it')",
-    example: "There's something different about her haircut, but I can't quite put my finger on it.",
-    example1: "The design is aesthetically pleasing, yet I'm unable to put my finger on precisely what undermines the overall cohesion of the piece."
+    word: "presence",
+    explanation: "the state of being in a particular place, or the noticeable effect someone or something has",
+    example: "The company wants to expand its presence in the Asian market over the next five years.",
+    example1: "Her formidable presence at the negotiating table commanded unwavering attention from all delegates, fundamentally shifting the trajectory of the discussions."
   },
   {
     id: 7,
-    word: "remorse",
-    explanation: "a strong feeling of guilt and regret for something wrong you have done",
-    example: "He showed no remorse for missing the meeting, which really annoyed his manager.",
-    example1: "The defendant's palpable lack of remorse was deemed an aggravating factor during the sentencing phase of the trial."
+    word: "beset",
+    explanation: "troubled or affected by many problems or difficulties constantly",
+    example: "The construction project has been beset by delays since day one, mainly due to bad weather.",
+    example1: "The fledgling democracy, already beset by rampant corruption and civil unrest, now faces the looming spectre of economic collapse."
   },
   {
     id: 8,
-    word: "untoward",
-    explanation: "unexpected and inappropriate or inconvenient",
-    example: "If you notice anything untoward happening in the building, please report it to security immediately.",
-    example1: "The board assured shareholders that there had been no untoward financial transactions leading up to the merger announcement."
+    word: "nonrecurring",
+    explanation: "happening only once and not repeated, often used in finance for one-time costs",
+    example: "Don't worry about that expensive repair bill in the report; it's a nonrecurring cost this year only.",
+    example1: "Investors are advised to disregard the nonrecurring impairment charge when assessing the company's underlying profitability and long-term growth trajectory."
   },
   {
     id: 9,
-    word: "preventive",
-    explanation: "intended to stop something bad from happening before it occurs",
-    example: "The doctor recommended some preventive exercises to help avoid future back pain.",
-    example1: "The administration implemented stringent preventive measures in an effort to forestall any potential breach of data security."
+    word: "passed on",
+    explanation: "given or transmitted something to someone else, also can mean to decline an opportunity or to die",
+    example: "I was offered the manager position, but I passed on it because the timing wasn't right for my family.",
+    example1: "Having meticulously cultivated his expertise over decades, he passed on the intricate craft to his apprentice, ensuring the tradition would not die with him."
   },
   {
     id: 10,
-    word: "to plot",
-    explanation: "to make a secret plan to do something, often harmful or illegal",
-    example: "The group of friends gathered in the kitchen to plot a surprise party for their housemate.",
-    example1: "Whistleblower testimony revealed that senior executives had been plotting to manipulate the company's stock valuation for personal gain."
+    word: "under way",
+    explanation: "already started and currently happening or in progress",
+    example: "The preparations for the annual conference are already under way, so we need to finalize the guest list soon.",
+    example1: "A comprehensive investigation into the systemic failures is now under way, with a parliamentary committee expected to deliver its findings within the fiscal quarter."
   }
 ];
 

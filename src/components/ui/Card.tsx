@@ -122,7 +122,7 @@ export const Card = ({
                 >
                   <div className="bg-slate-800/30 p-4 md:p-6 rounded-md">
                     <p className="text-sm md:text-[18px] font-medium text-primary-400 mb-2">
-                      B1/B2 Example:
+                      Direct question Example:
                     </p>
                     <p className="text-slate-300 italic leading-relaxed text-[12px] md:text-[16px]">
                       "{word.example}"
@@ -131,7 +131,7 @@ export const Card = ({
 
                   <div className="bg-slate-800/30 p-4 md:p-6 rounded-md">
                     <p className="text-sm md:text-[18px] font-medium text-primary-400 mb-2">
-                      C1 Example:
+                      Indirect question Example:
                     </p>
                     <p className="text-slate-300 italic font-semibold leading-relaxed text-[12px] md:text-[16px]">
                       "{word.example1}"

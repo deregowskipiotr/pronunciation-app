@@ -12,76 +12,76 @@ export interface Flashcard {
   example1: string;
 }
 
-export const vocabularyWords: VocabularyWord[] = [
+export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
-    word: "venturing",
-    explanation: "daring to go somewhere or do something that may be risky or uncertain",
-    example: "After years of working from home, she's finally venturing back into the office a few days a week.",
-    example1: "The multinational corporation is venturing into untapped emerging markets, fully cognizant of the regulatory and logistical hurdles that lie ahead."
+    word: "No subject-verb inversion",
+    explanation: "In indirect questions, keep subject before verb — do not invert like in direct questions.",
+    example: "Where is the station?",
+    example1: "Can you tell me where the station is?"
   },
   {
     id: 2,
-    word: "dogged",
-    explanation: "showing persistent determination to continue doing something despite difficulties",
-    example: "Her dogged determination to finish the marathon, even with an injured knee, impressed everyone watching.",
-    example1: "The journalist's dogged pursuit of the truth, in the face of considerable institutional obstruction, ultimately unearthed a scandal of unprecedented proportions."
+    word: "Remove 'do/does/did' helpers",
+    explanation: "Auxiliary verbs 'do/does/did' disappear in indirect questions.",
+    example: "What does he want?",
+    example1: "I wonder what he wants."
   },
   {
     id: 3,
-    word: "relayed",
-    explanation: "passed on or communicated information from one person to another",
-    example: "I relayed your message to the team leader, so she should know about the change by now.",
-    example1: "The ambassador relayed the confidential communiqué to the foreign ministry with the utmost discretion, fully aware of its potential diplomatic ramifications."
+    word: "Use an introductory phrase",
+    explanation: "Start with phrases like 'Could you tell me...', 'Do you know...', 'I wonder...' instead of a direct question.",
+    example: "When does the train leave?",
+    example1: "Could you tell me when the train leaves?"
   },
   {
     id: 4,
-    word: "blip",
-    explanation: "a small, temporary problem or change from what is normal or expected",
-    example: "The drop in sales last month was just a blip; overall, the business is doing really well this year.",
-    example1: "The chief economist dismissed the quarterly downturn as a mere statistical blip rather than an indicator of any structural recession."
+    word: "Use 'if/whether' for yes/no questions",
+    explanation: "When the direct question has no question word, add 'if' or 'whether'.",
+    example: "Does she like coffee?",
+    example1: "I wonder if she likes coffee."
   },
   {
     id: 5,
-    word: "pave the way",
-    explanation: "to create conditions that make it possible for something to happen or succeed later",
-    example: "Learning English well can really pave the way for better job opportunities in the future.",
-    example1: "The groundbreaking bilateral agreement is expected to pave the way for unprecedented economic cooperation between the two historically antagonistic nations."
+    word: "Backshift tenses (past main verb)",
+    explanation: "If the main verb is past, shift the tense one step back.",
+    example: "Where is the bank?",
+    example1: "He asked where the bank was."
   },
   {
     id: 6,
-    word: "presence",
-    explanation: "the state of being in a particular place, or the noticeable effect someone or something has",
-    example: "The company wants to expand its presence in the Asian market over the next five years.",
-    example1: "Her formidable presence at the negotiating table commanded unwavering attention from all delegates, fundamentally shifting the trajectory of the discussions."
+    word: "Adjust pronouns",
+    explanation: "Change pronouns to match the perspective of the speaker.",
+    example: "Do you like my car?",
+    example1: "He asked if I liked his car."
   },
   {
     id: 7,
-    word: "beset",
-    explanation: "troubled or affected by many problems or difficulties constantly",
-    example: "The construction project has been beset by delays since day one, mainly due to bad weather.",
-    example1: "The fledgling democracy, already beset by rampant corruption and civil unrest, now faces the looming spectre of economic collapse."
+    word: "No question mark (usually)",
+    explanation: "Indirect questions as statements end with a period, not a question mark.",
+    example: "Where is the station?",
+    example1: "I wonder where the station is."
   },
   {
     id: 8,
-    word: "nonrecurring",
-    explanation: "happening only once and not repeated, often used in finance for one-time costs",
-    example: "Don't worry about that expensive repair bill in the report; it's a nonrecurring cost this year only.",
-    example1: "Investors are advised to disregard the nonrecurring impairment charge when assessing the company's underlying profitability and long-term growth trajectory."
+    word: "'Who/What' as subject",
+    explanation: "If who/what is the subject, word order stays almost the same without 'did'.",
+    example: "Who called?",
+    example1: "I wonder who called."
   },
   {
     id: 9,
-    word: "passed on",
-    explanation: "given or transmitted something to someone else, also can mean to decline an opportunity or to die",
-    example: "I was offered the manager position, but I passed on it because the timing wasn't right for my family.",
-    example1: "Having meticulously cultivated his expertise over decades, he passed on the intricate craft to his apprentice, ensuring the tradition would not die with him."
+    word: "Politeness from intro phrase",
+    explanation: "Change formality by changing the introductory phrase (I wonder → Would you mind telling me).",
+    example: "What time is it?",
+    example1: "Would you mind telling me what time it is?"
   },
   {
     id: 10,
-    word: "under way",
-    explanation: "already started and currently happening or in progress",
-    example: "The preparations for the annual conference are already under way, so we need to finalize the guest list soon.",
-    example1: "A comprehensive investigation into the systemic failures is now under way, with a parliamentary committee expected to deliver its findings within the fiscal quarter."
+    word: "Embedded questions follow same rules",
+    explanation: "Inside longer statements, keep indirect question word order.",
+    example: "Why is he sad?",
+    example1: "I can't understand why he is sad."
   }
 ];
 

@@ -15,73 +15,73 @@ export interface Flashcard {
 export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
-    word: "No subject-verb inversion",
-    explanation: "In indirect questions, keep subject before verb — do not invert like in direct questions.",
-    example: "Where is the station?",
-    example1: "Can you tell me where the station is?"
+    word: "if for Yes/No questions",
+    explanation: "When a direct question has no question word (yes/no question), use 'if' to introduce the indirect question.",
+    example: "Do they live here?",
+    example1: "I wonder if they live here."
   },
   {
     id: 2,
-    word: "Remove 'do/does/did' helpers",
-    explanation: "Auxiliary verbs 'do/does/did' disappear in indirect questions.",
-    example: "What does he want?",
-    example1: "I wonder what he wants."
+    word: "whether (more formal)",
+    explanation: "You can use 'whether' instead of 'if' in yes/no questions for a more formal tone.",
+    example: "Can Mark join us?",
+    example1: "Do you know whether Mark can join us?"
   },
   {
     id: 3,
-    word: "Use an introductory phrase",
-    explanation: "Start with phrases like 'Could you tell me...', 'Do you know...', 'I wonder...' instead of a direct question.",
-    example: "When does the train leave?",
-    example1: "Could you tell me when the train leaves?"
+    word: "Keep wh- words",
+    explanation: "For wh- questions (who, what, when, where, why, how), keep the same question word in the indirect question.",
+    example: "What time does the train leave?",
+    example1: "Do you remember what time the train leaves?"
   },
   {
     id: 4,
-    word: "Use 'if/whether' for yes/no questions",
-    explanation: "When the direct question has no question word, add 'if' or 'whether'.",
-    example: "Does she like coffee?",
-    example1: "I wonder if she likes coffee."
+    word: "Remove do/does/did",
+    explanation: "Auxiliary verbs 'do/does/did' disappear in indirect questions. Change the main verb to past tense if needed.",
+    example: "Why did she start crying?",
+    example1: "Have you got any idea why she started crying?"
   },
   {
     id: 5,
-    word: "Backshift tenses (past main verb)",
-    explanation: "If the main verb is past, shift the tense one step back.",
-    example: "Where is the bank?",
-    example1: "He asked where the bank was."
+    word: "I wonder + indirect question",
+    explanation: "Use 'I wonder' as an introductory phrase for indirect questions expressing curiosity.",
+    example: "Can Peter speak German?",
+    example1: "I wonder if Peter can speak German."
   },
   {
     id: 6,
-    word: "Adjust pronouns",
-    explanation: "Change pronouns to match the perspective of the speaker.",
-    example: "Do you like my car?",
-    example1: "He asked if I liked his car."
+    word: "I'd like to know + indirect question",
+    explanation: "Use 'I'd like to know' as a polite introductory phrase.",
+    example: "Is Maria going to apply for this job?",
+    example1: "I'd like to know if Maria is going to apply for this job."
   },
   {
     id: 7,
-    word: "No question mark (usually)",
-    explanation: "Indirect questions as statements end with a period, not a question mark.",
-    example: "Where is the station?",
-    example1: "I wonder where the station is."
+    word: "Could you tell me + indirect question",
+    explanation: "Use 'Could you tell me' for a polite request. Keep normal subject-verb order.",
+    example: "Where is the nearest taxi rank?",
+    example1: "Could you tell me where the nearest taxi rank is?"
   },
   {
     id: 8,
-    word: "'Who/What' as subject",
-    explanation: "If who/what is the subject, word order stays almost the same without 'did'.",
-    example: "Who called?",
-    example1: "I wonder who called."
+    word: "Do you know + indirect question",
+    explanation: "Use 'Do you know' to ask if someone has information about something.",
+    example: "Have they ever been to China?",
+    example1: "Do you know if they have ever been to China?"
   },
   {
     id: 9,
-    word: "Politeness from intro phrase",
-    explanation: "Change formality by changing the introductory phrase (I wonder → Would you mind telling me).",
-    example: "What time is it?",
-    example1: "Would you mind telling me what time it is?"
+    word: "Would you mind telling me",
+    explanation: "The most polite introductory phrase. Use 'would' and keep normal word order.",
+    example: "When will you move out?",
+    example1: "Would you mind telling me when you will move out?"
   },
   {
     id: 10,
-    word: "Embedded questions follow same rules",
-    explanation: "Inside longer statements, keep indirect question word order.",
-    example: "Why is he sad?",
-    example1: "I can't understand why he is sad."
+    word: "No question mark",
+    explanation: "Indirect questions that are part of a statement end with a period, not a question mark.",
+    example: "Is everyone ready?",
+    example1: "I'd like to know if everyone is ready."
   }
 ];
 

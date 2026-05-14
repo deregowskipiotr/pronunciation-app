@@ -15,73 +15,73 @@ export interface Flashcard {
 export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
-    word: "if for Yes/No questions",
-    explanation: "When a direct question has no question word (yes/no question), use 'if' to introduce the indirect question.",
-    example: "Do they live here?",
-    example1: "I wonder if they live here."
+    word: "try as (someone) might",
+    explanation: "Used to say that although someone is trying very hard, they cannot do something.",
+    example: "Try as he might, he couldn't open the jammed car door.",
+    example1: "Try as they might to reconcile the conflicting data, the researchers found no logical correlation."
   },
   {
     id: 2,
-    word: "whether (more formal)",
-    explanation: "You can use 'whether' instead of 'if' in yes/no questions for a more formal tone.",
-    example: "Can Mark join us?",
-    example1: "Do you know whether Mark can join us?"
+    word: "ferocious",
+    explanation: "Frighteningly violent, cruel, or intense.",
+    example: "A ferocious dog barked at us from behind the garden fence.",
+    example1: "The company faced ferocious competition that eventually forced a complete restructuring of their business model."
   },
   {
     id: 3,
-    word: "Keep wh- words",
-    explanation: "For wh- questions (who, what, when, where, why, how), keep the same question word in the indirect question.",
-    example: "What time does the train leave?",
-    example1: "Do you remember what time the train leaves?"
+    word: "allegedly",
+    explanation: "Used when something is said to be true but has not been proved yet.",
+    example: "The man allegedly stole a car from the parking lot last night.",
+    example1: "The minister was allegedly involved in the embezzlement of public funds, though no formal charges have been filed."
   },
   {
     id: 4,
-    word: "Remove do/does/did",
-    explanation: "Auxiliary verbs 'do/does/did' disappear in indirect questions. Change the main verb to past tense if needed.",
-    example: "Why did she start crying?",
-    example1: "Have you got any idea why she started crying?"
+    word: "contraption",
+    explanation: "A machine or device that looks strange or unnecessarily complicated.",
+    example: "He built a strange contraption for making toast in the morning.",
+    example1: "The basement was filled with various scientific contraptions that seemed to serve no discernable purpose."
   },
   {
     id: 5,
-    word: "I wonder + indirect question",
-    explanation: "Use 'I wonder' as an introductory phrase for indirect questions expressing curiosity.",
-    example: "Can Peter speak German?",
-    example1: "I wonder if Peter can speak German."
+    word: "embedded",
+    explanation: "Fixed firmly and deeply in a surrounding mass; an integral part of something.",
+    example: "The thorn was deeply embedded in his finger and hard to remove.",
+    example1: "Cultural biases are often so deeply embedded in societal structures that they go entirely unnoticed."
   },
   {
     id: 6,
-    word: "I'd like to know + indirect question",
-    explanation: "Use 'I'd like to know' as a polite introductory phrase.",
-    example: "Is Maria going to apply for this job?",
-    example1: "I'd like to know if Maria is going to apply for this job."
+    word: "to solidify",
+    explanation: "To make or become hard or solid; to make a plan or idea certain and less likely to change.",
+    example: "The molten rock began to solidify as soon as it reached the cold water.",
+    example1: "This latest acquisition will help to solidify the corporation's position as a global market leader."
   },
   {
     id: 7,
-    word: "Could you tell me + indirect question",
-    explanation: "Use 'Could you tell me' for a polite request. Keep normal subject-verb order.",
-    example: "Where is the nearest taxi rank?",
-    example1: "Could you tell me where the nearest taxi rank is?"
+    word: "capacity",
+    explanation: "The maximum amount that something can contain; the ability or power to do something.",
+    example: "The stadium has a seating capacity of over 50,000 people.",
+    example1: "The intellectual capacity required to grasp these abstract philosophical concepts is quite significant."
   },
   {
     id: 8,
-    word: "Do you know + indirect question",
-    explanation: "Use 'Do you know' to ask if someone has information about something.",
-    example: "Have they ever been to China?",
-    example1: "Do you know if they have ever been to China?"
+    word: "in its infancy",
+    explanation: "To be in a very early stage of development.",
+    example: "When my father started his business, the internet was still in its infancy.",
+    example1: "While the technology is still in its infancy, its potential to revolutionize the energy sector is undeniable."
   },
   {
     id: 9,
-    word: "Would you mind telling me",
-    explanation: "The most polite introductory phrase. Use 'would' and keep normal word order.",
-    example: "When will you move out?",
-    example1: "Would you mind telling me when you will move out?"
+    word: "to scavenge",
+    explanation: "To search for and collect anything usable from discarded waste.",
+    example: "Wild animals often scavenge for food in city trash cans.",
+    example1: "Economically disadvantaged groups are often forced to scavenge for electronic components in massive landfills."
   },
   {
     id: 10,
-    word: "No question mark",
-    explanation: "Indirect questions that are part of a statement end with a period, not a question mark.",
-    example: "Is everyone ready?",
-    example1: "I'd like to know if everyone is ready."
+    word: "extraction",
+    explanation: "The process of taking something out, especially by effort or force.",
+    example: "The extraction of the tooth was quick and relatively painless.",
+    example1: "The environmental impact of mineral extraction in protected rainforests remains a contentious political issue."
   }
 ];
 

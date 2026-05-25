@@ -225,7 +225,7 @@ export const SpeechFlashcard = () => {
         </div>
 
         {/* RIGHT COLUMN - Control Panel, same height */}
-        <div className="w-full lg:w-1/2 flex flex-col flex-1 h-full min-h-[120px] md:min-h-[480px] bg-slate-800/20 rounded-md px-2 py-4 md:px-4 md:py-6 border border-slate-700/50">
+        <div className="w-full lg:w-1/2 flex flex-col flex-1 h-full min-h-30 md:min-h-120 bg-slate-800/20 rounded-md px-2 py-4 md:px-4 md:py-6 border border-slate-700/50">
           {/* TOP SECTION - Stats & Progress */}
           <div className="space-y-3">
             {/* Unified Button Row - VoiceSelector & Reset */}

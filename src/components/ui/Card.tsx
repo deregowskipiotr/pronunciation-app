@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { CardProps } from "@/types";
 
@@ -17,14 +17,14 @@ export const Card = ({
   className = "",
 }: CardComponentProps) => {
   // Track flip direction for correct rotation
-  const [, setFlipKey] = useState(0);
-  const prevFlipped = useRef(isFlipped);
+  const [ ,setFlipKey] = useState(0);
+const [prevFlipped, setPrevFlipped] = useState(isFlipped);
 
-  // Detect flip direction change
-  if (prevFlipped.current !== isFlipped) {
-    prevFlipped.current = isFlipped;
-    setFlipKey((k) => k + 1);
-  }
+// Adjust state directly during render when prop changes
+if (isFlipped !== prevFlipped) {
+  setPrevFlipped(isFlipped);
+  setFlipKey((k) => k + 1);
+}
 
   // Content crossfade for Prev/Next word changes
   const textVariants = {
@@ -41,7 +41,7 @@ export const Card = ({
   return (
     <div
       className={`
-        relative w-full h-full min-h-[420px] md:min-h-[480px]
+        relative w-full h-full min-h-105 md:min-h-120
         bg-slate-900/50 backdrop-blur-sm 
         border border-slate-700/50
         rounded-md shadow-lg px-2 py-6 md:px-4 md:py-8
@@ -122,7 +122,7 @@ export const Card = ({
                 >
                   <div className="bg-slate-800/30 p-4 md:p-6 rounded-md">
                     <p className="text-sm md:text-[18px] font-medium text-primary-400 mb-2">
-                      Direct question Example:
+                      B1/B2 Level Example:
                     </p>
                     <p className="text-slate-300 italic leading-relaxed text-[12px] md:text-[16px]">
                       "{word.example}"
@@ -131,7 +131,7 @@ export const Card = ({
 
                   <div className="bg-slate-800/30 p-4 md:p-6 rounded-md">
                     <p className="text-sm md:text-[18px] font-medium text-primary-400 mb-2">
-                      Indirect question Example:
+                      C1 Level Example:
                     </p>
                     <p className="text-slate-300 italic font-semibold leading-relaxed text-[12px] md:text-[16px]">
                       "{word.example1}"

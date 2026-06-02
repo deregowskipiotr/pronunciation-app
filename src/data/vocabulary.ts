@@ -15,73 +15,73 @@ export interface Flashcard {
 export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
-    word: "try as (someone) might",
-    explanation: "Used to say that although someone is trying very hard, they cannot do something.",
-    example: "Try as he might, he couldn't open the jammed car door.",
-    example1: "Try as they might to reconcile the conflicting data, the researchers found no logical correlation."
+    word: "saunter",
+    explanation: "To walk in a slow, relaxed manner, without hurry or effort.",
+    example: "We decided to saunter along the beach after dinner to enjoy the sunset.",
+    example1: "Rather than rushing to the meeting, he sauntered into the boardroom with an air of absolute confidence."
   },
   {
     id: 2,
-    word: "ferocious",
-    explanation: "Frighteningly violent, cruel, or intense.",
-    example: "A ferocious dog barked at us from behind the garden fence.",
-    example1: "The company faced ferocious competition that eventually forced a complete restructuring of their business model."
+    word: "to disown",
+    explanation: "To refuse to acknowledge or maintain any connection with someone or something.",
+    example: "His parents threatened to disown him if he decided to quit university.",
+    example1: "The politician was forced to publicly disown the controversial remarks made by his former campaign manager."
   },
   {
     id: 3,
-    word: "allegedly",
-    explanation: "Used when something is said to be true but has not been proved yet.",
-    example: "The man allegedly stole a car from the parking lot last night.",
-    example1: "The minister was allegedly involved in the embezzlement of public funds, though no formal charges have been filed."
+    word: "to put it bluntly",
+    explanation: "To speak in a direct, honest, and sometimes rude way without trying to be polite.",
+    example: "To put it bluntly, your performance on this project was simply not good enough.",
+    example1: "To put it bluntly, the company’s current financial strategy is fundamentally flawed and entirely unsustainable."
   },
   {
     id: 4,
-    word: "contraption",
-    explanation: "A machine or device that looks strange or unnecessarily complicated.",
-    example: "He built a strange contraption for making toast in the morning.",
-    example1: "The basement was filled with various scientific contraptions that seemed to serve no discernable purpose."
+    word: "to surrender",
+    explanation: "To stop fighting and admit defeat, or to give up control of something.",
+    example: "After being surrounded by the police, the thieves finally decided to surrender.",
+    example1: "The CEO was eventually compelled to surrender her executive powers following a prolonged and bitter boardroom dispute."
   },
   {
     id: 5,
-    word: "embedded",
-    explanation: "Fixed firmly and deeply in a surrounding mass; an integral part of something.",
-    example: "The thorn was deeply embedded in his finger and hard to remove.",
-    example1: "Cultural biases are often so deeply embedded in societal structures that they go entirely unnoticed."
+    word: "batch",
+    explanation: "A quantity or number of things produced or dealt with at one time.",
+    example: "I baked a fresh batch of chocolate chip cookies for the school party.",
+    example1: "The quality assurance team rejected the entire batch of microchips due to a microscopic anomaly detected during stress testing."
   },
   {
     id: 6,
-    word: "to solidify",
-    explanation: "To make or become hard or solid; to make a plan or idea certain and less likely to change.",
-    example: "The molten rock began to solidify as soon as it reached the cold water.",
-    example1: "This latest acquisition will help to solidify the corporation's position as a global market leader."
+    word: "trenchant",
+    explanation: "Vigorous, clear, and sharply effective in expression or style.",
+    example: "She wrote a trenchant review of the new movie, pointing out all its obvious flaws.",
+    example1: "His trenchant critique of the administration's foreign policy resonated deeply with the disillusioned electorate."
   },
   {
     id: 7,
-    word: "capacity",
-    explanation: "The maximum amount that something can contain; the ability or power to do something.",
-    example: "The stadium has a seating capacity of over 50,000 people.",
-    example1: "The intellectual capacity required to grasp these abstract philosophical concepts is quite significant."
+    word: "(to be) amenable to reason",
+    explanation: "Willing to listen to logic, accept suggestions, and change one's mind.",
+    example: "Luckily, the manager was amenable to reason and gave us an extra day to finish the work.",
+    example1: "One hopes that the opposing counsel will prove amenable to reason during the arbitration proceedings, thereby avoiding a lengthy trial."
   },
   {
     id: 8,
-    word: "in its infancy",
-    explanation: "To be in a very early stage of development.",
-    example: "When my father started his business, the internet was still in its infancy.",
-    example1: "While the technology is still in its infancy, its potential to revolutionize the energy sector is undeniable."
+    word: "nonplussed",
+    explanation: "So surprised and confused that one is unsure how to react.",
+    example: "I was completely nonplussed when my normally quiet coworker suddenly started yelling.",
+    example1: "Even the veteran journalist was visibly nonplussed by the sudden, sweeping changes to the geopolitical landscape."
   },
   {
     id: 9,
-    word: "to scavenge",
-    explanation: "To search for and collect anything usable from discarded waste.",
-    example: "Wild animals often scavenge for food in city trash cans.",
-    example1: "Economically disadvantaged groups are often forced to scavenge for electronic components in massive landfills."
+    word: "inconclusive",
+    explanation: "Not leading to a firm or final result; not ending doubt or dispute.",
+    example: "The medical tests were inconclusive, so the doctor had to order more blood work.",
+    example1: "Despite extensive cross-examination, the witness's testimony remained inconclusive, leaving the jury with substantial reasonable doubt."
   },
   {
     id: 10,
-    word: "extraction",
-    explanation: "The process of taking something out, especially by effort or force.",
-    example: "The extraction of the tooth was quick and relatively painless.",
-    example1: "The environmental impact of mineral extraction in protected rainforests remains a contentious political issue."
+    word: "when push comes to shove",
+    explanation: "When a situation becomes critical, serious, or requires a difficult decision to be made.",
+    example: "He talks a lot about helping out, but when push comes to shove, he's never actually there.",
+    example1: "Corporate sustainability pledges are laudable, but when push comes to shove, most conglomerates will prioritize shareholder dividends over environmental ethics."
   }
 ];
 

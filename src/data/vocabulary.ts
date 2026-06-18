@@ -15,73 +15,73 @@ export interface Flashcard {
 export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
-    word: "saunter",
-    explanation: "To walk in a slow, relaxed manner, without hurry or effort.",
-    example: "We decided to saunter along the beach after dinner to enjoy the sunset.",
-    example1: "Rather than rushing to the meeting, he sauntered into the boardroom with an air of absolute confidence."
+    word: "to decimate",
+    explanation: "To kill, destroy, or remove a large percentage of something.",
+    example: "The disease managed to decimate the local rabbit population in just a few months.",
+    example1: "The unexpected economic downturn decimated the startup's revenue, forcing them to pivot their entire business model."
   },
   {
     id: 2,
-    word: "to disown",
-    explanation: "To refuse to acknowledge or maintain any connection with someone or something.",
-    example: "His parents threatened to disown him if he decided to quit university.",
-    example1: "The politician was forced to publicly disown the controversial remarks made by his former campaign manager."
+    word: "replete",
+    explanation: "Filled or well-supplied with something.",
+    example: "The library is replete with books on every imaginable subject.",
+    example1: "His lecture was replete with complex data sets, yet he managed to present them in an accessible, engaging manner."
   },
   {
     id: 3,
-    word: "to put it bluntly",
-    explanation: "To speak in a direct, honest, and sometimes rude way without trying to be polite.",
-    example: "To put it bluntly, your performance on this project was simply not good enough.",
-    example1: "To put it bluntly, the company’s current financial strategy is fundamentally flawed and entirely unsustainable."
+    word: "omnicidal",
+    explanation: "Inclined to kill everyone or everything; referring to universal destruction.",
+    example: "The movie's villain had an omnicidal plan to destroy the entire planet.",
+    example1: "The essay offered a bleak analysis of the late 20th-century obsession with nuclear proliferation and its potential omnicidal consequences."
   },
   {
     id: 4,
-    word: "to surrender",
-    explanation: "To stop fighting and admit defeat, or to give up control of something.",
-    example: "After being surrounded by the police, the thieves finally decided to surrender.",
-    example1: "The CEO was eventually compelled to surrender her executive powers following a prolonged and bitter boardroom dispute."
+    word: "in the early aughts",
+    explanation: "Referring to the decade from 2000 to 2009.",
+    example: "I bought my first mobile phone back in the early aughts.",
+    example1: "The rapid expansion of social media platforms fundamentally altered communication patterns, a trend that truly took root in the early aughts."
   },
   {
     id: 5,
-    word: "batch",
-    explanation: "A quantity or number of things produced or dealt with at one time.",
-    example: "I baked a fresh batch of chocolate chip cookies for the school party.",
-    example1: "The quality assurance team rejected the entire batch of microchips due to a microscopic anomaly detected during stress testing."
+    word: "to dissipate",
+    explanation: "To gradually disappear, fade away, or scatter.",
+    example: "The morning fog began to dissipate as soon as the sun came out.",
+    example1: "The initial excitement surrounding the new policy quickly dissipated once the public realized its long-term implementation costs."
   },
   {
     id: 6,
-    word: "trenchant",
-    explanation: "Vigorous, clear, and sharply effective in expression or style.",
-    example: "She wrote a trenchant review of the new movie, pointing out all its obvious flaws.",
-    example1: "His trenchant critique of the administration's foreign policy resonated deeply with the disillusioned electorate."
+    word: "levee",
+    explanation: "An embankment built to prevent the overflow of a river.",
+    example: "We walked along the levee to get a better view of the river.",
+    example1: "Engineers worked tirelessly to reinforce the levee, fearing that the record-breaking rainfall would lead to catastrophic flooding."
   },
   {
     id: 7,
-    word: "(to be) amenable to reason",
-    explanation: "Willing to listen to logic, accept suggestions, and change one's mind.",
-    example: "Luckily, the manager was amenable to reason and gave us an extra day to finish the work.",
-    example1: "One hopes that the opposing counsel will prove amenable to reason during the arbitration proceedings, thereby avoiding a lengthy trial."
+    word: "to inundate",
+    explanation: "To overwhelm someone with things to deal with, or to flood with water.",
+    example: "After the commercial aired, the company was inundated with calls from new customers.",
+    example1: "The coastal regions were completely inundated following the storm, necessitating an immediate and large-scale emergency response."
   },
   {
     id: 8,
-    word: "nonplussed",
-    explanation: "So surprised and confused that one is unsure how to react.",
-    example: "I was completely nonplussed when my normally quiet coworker suddenly started yelling.",
-    example1: "Even the veteran journalist was visibly nonplussed by the sudden, sweeping changes to the geopolitical landscape."
+    word: "ineptitude",
+    explanation: "A lack of skill or ability; incompetence.",
+    example: "The project failed mainly because of the team leader's sheer ineptitude.",
+    example1: "The report highlighted a systemic bureaucratic ineptitude that had delayed the infrastructure project by over three years."
   },
   {
     id: 9,
-    word: "inconclusive",
-    explanation: "Not leading to a firm or final result; not ending doubt or dispute.",
-    example: "The medical tests were inconclusive, so the doctor had to order more blood work.",
-    example1: "Despite extensive cross-examination, the witness's testimony remained inconclusive, leaving the jury with substantial reasonable doubt."
+    word: "willful",
+    explanation: "Done deliberately, often ignoring the consequences or rights of others.",
+    example: "He was accused of willful neglect for failing to fix the dangerous broken stairs.",
+    example1: "The prosecutor argued that the defendant's actions constituted willful misconduct, clearly demonstrating an intent to bypass established safety protocols."
   },
   {
     id: 10,
-    word: "when push comes to shove",
-    explanation: "When a situation becomes critical, serious, or requires a difficult decision to be made.",
-    example: "He talks a lot about helping out, but when push comes to shove, he's never actually there.",
-    example1: "Corporate sustainability pledges are laudable, but when push comes to shove, most conglomerates will prioritize shareholder dividends over environmental ethics."
+    word: "to skirmish",
+    explanation: "To engage in a minor, short-term fight or conflict.",
+    example: "The two players started to skirmish briefly after a foul during the match.",
+    example1: "Despite the broader ceasefire agreement, forces continued to skirmish along the disputed border, undermining diplomatic efforts."
   }
 ];
 

@@ -15,73 +15,73 @@ export interface Flashcard {
 export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
-    word: "to decimate",
-    explanation: "To kill, destroy, or remove a large percentage of something.",
-    example: "The disease managed to decimate the local rabbit population in just a few months.",
-    example1: "The unexpected economic downturn decimated the startup's revenue, forcing them to pivot their entire business model."
+    word: "rationale",
+    explanation: "The underlying reason or logical basis for a course of action or a belief.",
+    example: "I don't really understand the rationale behind this new company rule.",
+    example1: "The CEO articulated a compelling rationale for the merger, emphasizing long-term synergies and market expansion."
   },
   {
     id: 2,
-    word: "replete",
-    explanation: "Filled or well-supplied with something.",
-    example: "The library is replete with books on every imaginable subject.",
-    example1: "His lecture was replete with complex data sets, yet he managed to present them in an accessible, engaging manner."
+    word: "to abandon",
+    explanation: "To leave a place, thing, or person forever, or to stop doing something before it is finished.",
+    example: "We had to abandon the car because it broke down in the middle of nowhere.",
+    example1: "The developers were forced to abandon the ambitious project due to a severe depletion of capital funding."
   },
   {
     id: 3,
-    word: "omnicidal",
-    explanation: "Inclined to kill everyone or everything; referring to universal destruction.",
-    example: "The movie's villain had an omnicidal plan to destroy the entire planet.",
-    example1: "The essay offered a bleak analysis of the late 20th-century obsession with nuclear proliferation and its potential omnicidal consequences."
+    word: "fertility",
+    explanation: "The quality of being able to produce young, or the ability of soil to support plant growth.",
+    example: "The fertility of the soil in this region makes it perfect for farming.",
+    example1: "The demographic report indicated a sharp decline in national fertility rates, prompting concerns about future labor shortages."
   },
   {
     id: 4,
-    word: "in the early aughts",
-    explanation: "Referring to the decade from 2000 to 2009.",
-    example: "I bought my first mobile phone back in the early aughts.",
-    example1: "The rapid expansion of social media platforms fundamentally altered communication patterns, a trend that truly took root in the early aughts."
+    word: "to decelerate",
+    explanation: "To slow down or to reduce the speed of something.",
+    example: "You need to decelerate when you are driving near a school.",
+    example1: "The central bank implemented measures designed to decelerate inflation without triggering an economic recession."
   },
   {
     id: 5,
-    word: "to dissipate",
-    explanation: "To gradually disappear, fade away, or scatter.",
-    example: "The morning fog began to dissipate as soon as the sun came out.",
-    example1: "The initial excitement surrounding the new policy quickly dissipated once the public realized its long-term implementation costs."
+    word: "to penalize",
+    explanation: "To punish someone for breaking a rule or law, or to put someone at a disadvantage.",
+    example: "The teacher will penalize you if you hand in your homework late.",
+    example1: "New environmental regulations will heavily penalize corporations that fail to meet strict carbon emission targets."
   },
   {
     id: 6,
-    word: "levee",
-    explanation: "An embankment built to prevent the overflow of a river.",
-    example: "We walked along the levee to get a better view of the river.",
-    example1: "Engineers worked tirelessly to reinforce the levee, fearing that the record-breaking rainfall would lead to catastrophic flooding."
+    word: "to sterilize",
+    explanation: "To make something completely clean and free from bacteria, or to medically prevent reproduction.",
+    example: "You must thoroughly sterilize the baby's bottles before using them.",
+    example1: "The veterinary clinic launched a proactive campaign to sterilize feral cat populations to ethically manage urban wildlife."
   },
   {
     id: 7,
-    word: "to inundate",
-    explanation: "To overwhelm someone with things to deal with, or to flood with water.",
-    example: "After the commercial aired, the company was inundated with calls from new customers.",
-    example1: "The coastal regions were completely inundated following the storm, necessitating an immediate and large-scale emergency response."
+    word: "baby hatch",
+    explanation: "A designated, safe place where parents can anonymously leave an infant they are unable to care for. (PL: okno życia)",
+    example: "The local hospital installed a baby hatch to help desperate mothers who cannot keep their newborns.",
+    example1: "The introduction of the baby hatch has sparked complex ethical debates regarding child welfare and the right to parental anonymity."
   },
   {
     id: 8,
-    word: "ineptitude",
-    explanation: "A lack of skill or ability; incompetence.",
-    example: "The project failed mainly because of the team leader's sheer ineptitude.",
-    example1: "The report highlighted a systemic bureaucratic ineptitude that had delayed the infrastructure project by over three years."
+    word: "to exacerbate",
+    explanation: "To make a problem, bad situation, or negative feeling worse.",
+    example: "Scratching your mosquito bites will only exacerbate the itching.",
+    example1: "The government's sudden decision to cut public funding will undoubtedly exacerbate the ongoing housing crisis."
   },
   {
     id: 9,
-    word: "willful",
-    explanation: "Done deliberately, often ignoring the consequences or rights of others.",
-    example: "He was accused of willful neglect for failing to fix the dangerous broken stairs.",
-    example1: "The prosecutor argued that the defendant's actions constituted willful misconduct, clearly demonstrating an intent to bypass established safety protocols."
+    word: "lucid",
+    explanation: "Expressed clearly and easy to understand; or showing an ability to think clearly.",
+    example: "The teacher gave a very lucid explanation of the difficult math problem.",
+    example1: "Despite his advanced age and declining health, the witness remained entirely lucid and capable of giving a reliable testimony."
   },
   {
     id: 10,
-    word: "to skirmish",
-    explanation: "To engage in a minor, short-term fight or conflict.",
-    example: "The two players started to skirmish briefly after a foul during the match.",
-    example1: "Despite the broader ceasefire agreement, forces continued to skirmish along the disputed border, undermining diplomatic efforts."
+    word: "ca. (circa)",
+    explanation: "An abbreviation meaning approximately or about. It is almost always used before dates, years, or numbers. (PL: około)",
+    example: "The old town hall was built ca. 1920, though the exact year was lost in the records.",
+    example1: "The artifact, carbon-dated to ca. 400 BCE, fundamentally challenges our previous understanding of ancient trade routes."
   }
 ];
 

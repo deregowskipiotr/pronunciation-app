@@ -72,9 +72,9 @@ export const vocabularyWords: Flashcard[] = [
   {
     id: 9,
     word: "Imperatives (Commands)",
-    explanation: "For commands or requests, the tag is usually 'will you?' or 'won't you?', regardless of whether the command is positive or negative.",
+    explanation: "For commands or requests, the tag is usually 'will you?' or 'won't you?', regardless of whether the command is positive or negative. Telling someone to do something? → ...will you? / could you? Telling someone NOT to do something? → ...will you? Offering them cake or a chair? (polite requests) → ...won't you?",
     example: "Pass me the laptop, will you?",
-    example1: "Draft the preliminary budget constraints by noon, won't you?"
+    example1: "Join us for a coffee in the kitchen, won't you?"
   },
   {
     id: 10,

@@ -15,73 +15,73 @@ export interface Flashcard {
 export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
-    word: "rationale",
-    explanation: "The underlying reason or logical basis for a course of action or a belief.",
-    example: "I don't really understand the rationale behind this new company rule.",
-    example1: "The CEO articulated a compelling rationale for the merger, emphasizing long-term synergies and market expansion."
+    word: "Present Simple (Positive → Negative)",
+    explanation: "When the main sentence is a positive present tense statement without 'to be', use 'don't' or 'doesn't' in the tag.",
+    example: "You manage the key accounts, don't you?",
+    example1: "He oversees the marketing settlements for the entire division, doesn't he?"
   },
   {
     id: 2,
-    word: "to abandon",
-    explanation: "To leave a place, thing, or person forever, or to stop doing something before it is finished.",
-    example: "We had to abandon the car because it broke down in the middle of nowhere.",
-    example1: "The developers were forced to abandon the ambitious project due to a severe depletion of capital funding."
+    word: "Verb 'To Be' (Positive → Negative)",
+    explanation: "If the main verb is a form of 'to be' (is/are), simply use its negative form in the tag.",
+    example: "The new frontend setup is ready, isn't it?",
+    example1: "The overarching architecture is ostensibly flawless, isn't it?"
   },
   {
     id: 3,
-    word: "fertility",
-    explanation: "The quality of being able to produce young, or the ability of soil to support plant growth.",
-    example: "The fertility of the soil in this region makes it perfect for farming.",
-    example1: "The demographic report indicated a sharp decline in national fertility rates, prompting concerns about future labor shortages."
+    word: "The 'I am' Exception",
+    explanation: "This is a strict exception. The negative tag for 'I am' is always 'aren't I?', never 'amn't I'.",
+    example: "I am responsible for this project, aren't I?",
+    example1: "I am slated to spearhead the upcoming initiative, aren't I?"
   },
   {
     id: 4,
-    word: "to decelerate",
-    explanation: "To slow down or to reduce the speed of something.",
-    example: "You need to decelerate when you are driving near a school.",
-    example1: "The central bank implemented measures designed to decelerate inflation without triggering an economic recession."
+    word: "Negative Statements (Negative → Positive)",
+    explanation: "If the main sentence contains a negative auxiliary verb (don't, isn't, haven't), the tag must flip to positive.",
+    example: "You don't like dealing with old bugs, do you?",
+    example1: "We haven't circumvented the regulatory requirements, have we?"
   },
   {
     id: 5,
-    word: "to penalize",
-    explanation: "To punish someone for breaking a rule or law, or to put someone at a disadvantage.",
-    example: "The teacher will penalize you if you hand in your homework late.",
-    example1: "New environmental regulations will heavily penalize corporations that fail to meet strict carbon emission targets."
+    word: "Past Simple (Positive → Negative)",
+    explanation: "For positive statements in the past simple tense, the auxiliary verb used in the tag is always 'didn't'.",
+    example: "You finished the bootcamp last year, didn't you?",
+    example1: "They orchestrated a hostile takeover of the competitor, didn't they?"
   },
   {
     id: 6,
-    word: "to sterilize",
-    explanation: "To make something completely clean and free from bacteria, or to medically prevent reproduction.",
-    example: "You must thoroughly sterilize the baby's bottles before using them.",
-    example1: "The veterinary clinic launched a proactive campaign to sterilize feral cat populations to ethically manage urban wildlife."
+    word: "Present Perfect",
+    explanation: "Use 'haven't' or 'hasn't' for positive statements, and 'have' or 'has' for negative ones.",
+    example: "We have met before, haven't we?",
+    example1: "The board has already ratified the proposed amendments, hasn't it?"
   },
   {
     id: 7,
-    word: "baby hatch",
-    explanation: "A designated, safe place where parents can anonymously leave an infant they are unable to care for. (PL: okno życia)",
-    example: "The local hospital installed a baby hatch to help desperate mothers who cannot keep their newborns.",
-    example1: "The introduction of the baby hatch has sparked complex ethical debates regarding child welfare and the right to parental anonymity."
+    word: "Modals (can, will, should)",
+    explanation: "Repeat the exact same modal verb in the opposite polarity for the tag.",
+    example: "You can write this component in TypeScript, can't you?",
+    example1: "Stakeholders shouldn't deviate from the established protocol, should they?"
   },
   {
     id: 8,
-    word: "to exacerbate",
-    explanation: "To make a problem, bad situation, or negative feeling worse.",
-    example: "Scratching your mosquito bites will only exacerbate the itching.",
-    example1: "The government's sudden decision to cut public funding will undoubtedly exacerbate the ongoing housing crisis."
+    word: "Negative Adverbs (Hidden Negatives)",
+    explanation: "Sentences with words like 'never', 'rarely', or 'hardly' are treated as grammatically negative. The tag must be positive.",
+    example: "She rarely makes mistakes in her code, does she?",
+    example1: "One seldom encounters such an egregious oversight, does one?"
   },
   {
     id: 9,
-    word: "lucid",
-    explanation: "Expressed clearly and easy to understand; or showing an ability to think clearly.",
-    example: "The teacher gave a very lucid explanation of the difficult math problem.",
-    example1: "Despite his advanced age and declining health, the witness remained entirely lucid and capable of giving a reliable testimony."
+    word: "Imperatives (Commands)",
+    explanation: "For commands or requests, the tag is usually 'will you?' or 'won't you?', regardless of whether the command is positive or negative.",
+    example: "Pass me the laptop, will you?",
+    example1: "Draft the preliminary budget constraints by noon, won't you?"
   },
   {
     id: 10,
-    word: "ca. (circa)",
-    explanation: "An abbreviation meaning approximately or about. It is almost always used before dates, years, or numbers. (PL: około)",
-    example: "The old town hall was built ca. 1920, though the exact year was lost in the records.",
-    example1: "The artifact, carbon-dated to ca. 400 BCE, fundamentally challenges our previous understanding of ancient trade routes."
+    word: "Suggestions with 'Let's'",
+    explanation: "When making a suggestion starting with 'Let's', the tag is always fixed as 'shall we?'.",
+    example: "Let's review these flashcards, shall we?",
+    example1: "Let's endeavor to mitigate the latent risks before proceeding, shall we?"
   }
 ];
 

@@ -50,10 +50,10 @@ export const vocabularyWords: Flashcard[] = [
   },
   {
     id: 6,
-    word: "to relive",
-    explanation: "To remember or imagine a past event so clearly that it feels like it is happening again.",
-    example: "Whenever they meet, they like to relive their favorite high school memories.",
-    example1: "The documentary forces the viewer to relive the harrowing final days of the conflict through unfiltered archival footage."
+    word: "to relieve",
+    explanation: "To reduce or remove pain, stress, or a difficult feeling.",
+    example: "Taking a hot bath is a great way to relieve stress after a long day at work.",
+    example1: "The central bank introduced new fiscal policies to relieve the intense economic pressure on small businesses."
   },
   {
     id: 7,

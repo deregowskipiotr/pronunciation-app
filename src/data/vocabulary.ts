@@ -15,73 +15,73 @@ export interface Flashcard {
 export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
-    word: "Present Simple (Positive → Negative)",
-    explanation: "When the main sentence is a positive present tense statement without 'to be', use 'don't' or 'doesn't' in the tag.",
-    example: "You manage the key accounts, don't you?",
-    example1: "He oversees the marketing settlements for the entire division, doesn't he?"
+    word: "sepulchral",
+    explanation: "Suggesting a tomb or grave; very sad, serious, or gloomy.",
+    example: "The old, empty house had a dark and sepulchral atmosphere.",
+    example1: "The manager delivered the bad news about the company's restructuring in a sepulchral tone that chilled the boardroom."
   },
   {
     id: 2,
-    word: "Verb 'To Be' (Positive → Negative)",
-    explanation: "If the main verb is a form of 'to be' (is/are), simply use its negative form in the tag.",
-    example: "The new frontend setup is ready, isn't it?",
-    example1: "The overarching architecture is ostensibly flawless, isn't it?"
+    word: "to condemn",
+    explanation: "To say very strongly that you think something is bad or wrong.",
+    example: "The local community was quick to condemn the vandalism in the park.",
+    example1: "International human rights organizations vehemently condemned the regime for its systemic suppression of political dissidents."
   },
   {
     id: 3,
-    word: "The 'I am' Exception",
-    explanation: "This is a strict exception. The negative tag for 'I am' is always 'aren't I?', never 'amn't I'.",
-    example: "I am responsible for this project, aren't I?",
-    example1: "I am slated to spearhead the upcoming initiative, aren't I?"
+    word: "with the intent of",
+    explanation: "With the purpose or goal of doing something.",
+    example: "He went to the store with the intent of buying ingredients for dinner.",
+    example1: "The legislation was drafted with the express intent of curbing monopolistic practices within the tech industry."
   },
   {
     id: 4,
-    word: "Negative Statements (Negative → Positive)",
-    explanation: "If the main sentence contains a negative auxiliary verb (don't, isn't, haven't), the tag must flip to positive.",
-    example: "You don't like dealing with old bugs, do you?",
-    example1: "We haven't circumvented the regulatory requirements, have we?"
+    word: "to undergo",
+    explanation: "To experience something that changes you, or something that is difficult.",
+    example: "My grandfather has to undergo surgery on his knee next week.",
+    example1: "The corporation will undergo a rigorous internal audit to ensure compliance with the newly enacted financial regulations."
   },
   {
     id: 5,
-    word: "Past Simple (Positive → Negative)",
-    explanation: "For positive statements in the past simple tense, the auxiliary verb used in the tag is always 'didn't'.",
-    example: "You finished the bootcamp last year, didn't you?",
-    example1: "They orchestrated a hostile takeover of the competitor, didn't they?"
+    word: "to stipulate",
+    explanation: "To say exactly how something must be done or what must be included in an agreement.",
+    example: "The rental contract stipulates that no pets are allowed in the apartment.",
+    example1: "The terms of the settlement stipulate that neither party may disclose the financial details of the agreement to the press."
   },
   {
     id: 6,
-    word: "Present Perfect",
-    explanation: "Use 'haven't' or 'hasn't' for positive statements, and 'have' or 'has' for negative ones.",
-    example: "We have met before, haven't we?",
-    example1: "The board has already ratified the proposed amendments, hasn't it?"
+    word: "to relive",
+    explanation: "To remember or imagine a past event so clearly that it feels like it is happening again.",
+    example: "Whenever they meet, they like to relive their favorite high school memories.",
+    example1: "The documentary forces the viewer to relive the harrowing final days of the conflict through unfiltered archival footage."
   },
   {
     id: 7,
-    word: "Modals (can, will, should)",
-    explanation: "Repeat the exact same modal verb in the opposite polarity for the tag.",
-    example: "You can write this component in TypeScript, can't you?",
-    example1: "Stakeholders shouldn't deviate from the established protocol, should they?"
+    word: "rebuke",
+    explanation: "To speak angrily to someone because they have done something wrong, or a sharp criticism.",
+    example: "The employee received a harsh rebuke from his boss for arriving late again.",
+    example1: "The senator's public resignation was widely interpreted as a stinging rebuke of the administration's controversial domestic policies."
   },
   {
     id: 8,
-    word: "Negative Adverbs (Hidden Negatives)",
-    explanation: "Sentences with words like 'never', 'rarely', or 'hardly' are treated as grammatically negative. The tag must be positive.",
-    example: "She rarely makes mistakes in her code, does she?",
-    example1: "One seldom encounters such an egregious oversight, does one?"
+    word: "dignity",
+    explanation: "Calm, serious, and controlled behavior that makes people respect you; a sense of self-worth.",
+    example: "Despite losing the game, the team accepted their defeat with dignity.",
+    example1: "The palliative care program is designed to ensure that terminally ill patients can maintain their autonomy and dignity through the end of life."
   },
   {
     id: 9,
-    word: "Imperatives (Commands)",
-    explanation: "For commands or requests, the tag is usually 'will you?' or 'won't you?', regardless of whether the command is positive or negative. Telling someone to do something? → ...will you? / could you? Telling someone NOT to do something? → ...will you? Offering them cake or a chair? (polite requests) → ...won't you?",
-    example: "Pass me the laptop, will you?",
-    example1: "Join us for a coffee in the kitchen, won't you?"
+    word: "to administer",
+    explanation: "To manage or organize something, or to give someone a medicine or a test.",
+    example: "The nurse will administer the pain medication every four hours.",
+    example1: "The newly appointed trustee was authorized to administer the estate in accordance with the deceased's final will and testament."
   },
   {
     id: 10,
-    word: "Suggestions with 'Let's'",
-    explanation: "When making a suggestion starting with 'Let's', the tag is always fixed as 'shall we?'.",
-    example: "Let's review these flashcards, shall we?",
-    example1: "Let's endeavor to mitigate the latent risks before proceeding, shall we?"
+    word: "consent",
+    explanation: "Permission or agreement to do something.",
+    example: "You cannot share these photos online without my consent.",
+    example1: "In medical research, obtaining informed consent from participants is a non-negotiable ethical and legal prerequisite."
   }
 ];
 

@@ -15,73 +15,73 @@ export interface Flashcard {
 export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
-    word: "sepulchral",
-    explanation: "Suggesting a tomb or grave; very sad, serious, or gloomy.",
-    example: "The old, empty house had a dark and sepulchral atmosphere.",
-    example1: "The manager delivered the bad news about the company's restructuring in a sepulchral tone that chilled the boardroom."
+    word: "bewilderment",
+    explanation: "A feeling of being extremely confused.",
+    example: "She looked at the complicated instructions in total bewilderment.",
+    example1: "The sudden and unannounced shift in corporate strategy was met with widespread bewilderment among the stakeholders."
   },
   {
     id: 2,
-    word: "to condemn",
-    explanation: "To say very strongly that you think something is bad or wrong.",
-    example: "The local community was quick to condemn the vandalism in the park.",
-    example1: "International human rights organizations vehemently condemned the regime for its systemic suppression of political dissidents."
+    word: "punitive",
+    explanation: "Intended as a punishment.",
+    example: "The teacher took punitive action against the students who cheated on the test.",
+    example1: "The court imposed severe punitive damages on the corporation to deter future environmental negligence."
   },
   {
     id: 3,
-    word: "with the intent of",
-    explanation: "With the purpose or goal of doing something.",
-    example: "He went to the store with the intent of buying ingredients for dinner.",
-    example1: "The legislation was drafted with the express intent of curbing monopolistic practices within the tech industry."
+    word: "captivity",
+    explanation: "The state of being kept in a confined space, like a prison or a zoo.",
+    example: "Animals born in captivity often cannot survive if released into the wild.",
+    example1: "The documentary highlights the profound psychological toll that prolonged captivity exacts on political prisoners."
   },
   {
     id: 4,
-    word: "to undergo",
-    explanation: "To experience something that changes you, or something that is difficult.",
-    example: "My grandfather has to undergo surgery on his knee next week.",
-    example1: "The corporation will undergo a rigorous internal audit to ensure compliance with the newly enacted financial regulations."
+    word: "adjacent",
+    explanation: "Next to or joining something else.",
+    example: "My hotel room is adjacent to the swimming pool, so it can be quite noisy.",
+    example1: "The proposed infrastructure project will heavily impact the adjacent parcels of agricultural land."
   },
   {
     id: 5,
-    word: "to stipulate",
-    explanation: "To say exactly how something must be done or what must be included in an agreement.",
-    example: "The rental contract stipulates that no pets are allowed in the apartment.",
-    example1: "The terms of the settlement stipulate that neither party may disclose the financial details of the agreement to the press."
+    word: "inmate",
+    explanation: "A person living in an institution such as a prison or hospital.",
+    example: "The inmates are allowed to exercise in the yard for one hour a day.",
+    example1: "The facility implemented a rigorous educational program aimed at reducing recidivism rates among departing inmates."
   },
   {
     id: 6,
-    word: "to relieve",
-    explanation: "To reduce or remove pain, stress, or a difficult feeling.",
-    example: "Taking a hot bath is a great way to relieve stress after a long day at work.",
-    example1: "The central bank introduced new fiscal policies to relieve the intense economic pressure on small businesses."
+    word: "to incarcerate",
+    explanation: "To put or keep someone in prison.",
+    example: "He was incarcerated for five years after being caught stealing cars.",
+    example1: "Critics argue that the current justice system is excessively prone to incarcerating non-violent drug offenders."
   },
   {
     id: 7,
-    word: "rebuke",
-    explanation: "To speak angrily to someone because they have done something wrong, or a sharp criticism.",
-    example: "The employee received a harsh rebuke from his boss for arriving late again.",
-    example1: "The senator's public resignation was widely interpreted as a stinging rebuke of the administration's controversial domestic policies."
+    word: "heinous",
+    explanation: "Very bad, shocking, and evil (usually describing a crime).",
+    example: "Kidnapping is considered a heinous crime by the entire community.",
+    example1: "The tribunal was convened to prosecute those responsible for the heinous atrocities committed during the conflict."
   },
   {
     id: 8,
-    word: "dignity",
-    explanation: "Calm, serious, and controlled behavior that makes people respect you; a sense of self-worth.",
-    example: "Despite losing the game, the team accepted their defeat with dignity.",
-    example1: "The palliative care program is designed to ensure that terminally ill patients can maintain their autonomy and dignity through the end of life."
+    word: "penitentiary",
+    explanation: "A state or federal prison for serious offenders.",
+    example: "He was transferred to a high-security penitentiary on the other side of the country.",
+    example1: "The investigative journalist exposed systemic corruption operating within the walls of the state penitentiary."
   },
   {
     id: 9,
-    word: "to administer",
-    explanation: "To manage or organize something, or to give someone a medicine or a test.",
-    example: "The nurse will administer the pain medication every four hours.",
-    example1: "The newly appointed trustee was authorized to administer the estate in accordance with the deceased's final will and testament."
+    word: "to be entitled to",
+    explanation: "Having the right to do or have something.",
+    example: "If you work full-time, you are entitled to four weeks of paid vacation.",
+    example1: "As a major shareholder, you are inherently entitled to scrutinize the company's financial disclosures before publication."
   },
   {
     id: 10,
-    word: "consent",
-    explanation: "Permission or agreement to do something.",
-    example: "You cannot share these photos online without my consent.",
-    example1: "In medical research, obtaining informed consent from participants is a non-negotiable ethical and legal prerequisite."
+    word: "to allocate",
+    explanation: "To give a share of something (like time or money) for a specific purpose.",
+    example: "The manager decided to allocate more money to the marketing team this year.",
+    example1: "The steering committee faced a formidable challenge in attempting to allocate the finite resources equitably among competing departments."
   }
 ];
 

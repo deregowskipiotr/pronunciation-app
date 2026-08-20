@@ -15,73 +15,73 @@ export interface Flashcard {
 export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
-    word: "bewilderment",
-    explanation: "A feeling of being extremely confused.",
-    example: "She looked at the complicated instructions in total bewilderment.",
-    example1: "The sudden and unannounced shift in corporate strategy was met with widespread bewilderment among the stakeholders."
+    word: "obtuse",
+    explanation: "Slow to understand or insensitive.",
+    example: "Don't be so obtuse; it was obvious she was just trying to help.",
+    example1: "His deliberate attempt to remain obtuse during policy negotiations frustrated the whole committee."
   },
   {
     id: 2,
-    word: "punitive",
-    explanation: "Intended as a punishment.",
-    example: "The teacher took punitive action against the students who cheated on the test.",
-    example1: "The court imposed severe punitive damages on the corporation to deter future environmental negligence."
+    word: "conduit",
+    explanation: "A channel or means through which something passes or spreads.",
+    example: "The port city acts as a major conduit for trade between the two regions.",
+    example1: "Financial institutions can inadvertently become conduits for illicit international monetary transfers."
   },
   {
     id: 3,
-    word: "captivity",
-    explanation: "The state of being kept in a confined space, like a prison or a zoo.",
-    example: "Animals born in captivity often cannot survive if released into the wild.",
-    example1: "The documentary highlights the profound psychological toll that prolonged captivity exacts on political prisoners."
+    word: "to lead somebody up (down) the garden path",
+    explanation: "To intentionally deceive or mislead someone.",
+    example: "I thought he was being honest, but he was leading me down the garden path.",
+    example1: "The inflated revenue projections were designed to lead potential investors up the garden path."
   },
   {
     id: 4,
-    word: "adjacent",
-    explanation: "Next to or joining something else.",
-    example: "My hotel room is adjacent to the swimming pool, so it can be quite noisy.",
-    example1: "The proposed infrastructure project will heavily impact the adjacent parcels of agricultural land."
+    word: "to jettison",
+    explanation: "To discard or get rid of something no longer useful.",
+    example: "We had to jettison our outdoor party plans when the severe storm hit.",
+    example1: "To maintain fiscal stability, the board voted to jettison several underperforming subsidiaries."
   },
   {
     id: 5,
-    word: "inmate",
-    explanation: "A person living in an institution such as a prison or hospital.",
-    example: "The inmates are allowed to exercise in the yard for one hour a day.",
-    example1: "The facility implemented a rigorous educational program aimed at reducing recidivism rates among departing inmates."
+    word: "phenomenon",
+    explanation: "A remarkable, observable event or occurrence.",
+    example: "The northern lights are a natural phenomenon that draws visitors worldwide.",
+    example1: "Sociologists are analyzing the phenomenon of remote work and its long-term impact on urban infrastructure."
   },
   {
     id: 6,
-    word: "to incarcerate",
-    explanation: "To put or keep someone in prison.",
-    example: "He was incarcerated for five years after being caught stealing cars.",
-    example1: "Critics argue that the current justice system is excessively prone to incarcerating non-violent drug offenders."
+    word: "renowned",
+    explanation: "Famous and respected for a specific quality or achievement.",
+    example: "She is a renowned chef who owns three popular restaurants downtown.",
+    example1: "The symposium featured several world-renowned scholars addressing climate economics."
   },
   {
     id: 7,
-    word: "heinous",
-    explanation: "Very bad, shocking, and evil (usually describing a crime).",
-    example: "Kidnapping is considered a heinous crime by the entire community.",
-    example1: "The tribunal was convened to prosecute those responsible for the heinous atrocities committed during the conflict."
+    word: "insomuch",
+    explanation: "To the extent or degree that (often used as 'insomuch as').",
+    example: "The campaign succeeded insomuch as it raised public awareness quickly.",
+    example1: "The policy was controversial, insomuch as it restricted individual freedoms under the guise of public safety."
   },
   {
     id: 8,
-    word: "penitentiary",
-    explanation: "A state or federal prison for serious offenders.",
-    example: "He was transferred to a high-security penitentiary on the other side of the country.",
-    example1: "The investigative journalist exposed systemic corruption operating within the walls of the state penitentiary."
+    word: "cutting-edge",
+    explanation: "Extremely modern, advanced, or innovative.",
+    example: "The university built a new research facility equipped with cutting-edge tools.",
+    example1: "Leveraging cutting-edge machine learning algorithms gave the startup a significant market advantage."
   },
   {
     id: 9,
-    word: "to be entitled to",
-    explanation: "Having the right to do or have something.",
-    example: "If you work full-time, you are entitled to four weeks of paid vacation.",
-    example1: "As a major shareholder, you are inherently entitled to scrutinize the company's financial disclosures before publication."
+    word: "to sift",
+    explanation: "To examine something thoroughly to find what is useful or important.",
+    example: "I had to sift through hundreds of emails to locate the receipt.",
+    example1: "Investigators had to sift through gigabytes of raw metadata to reconstruct the sequence of events."
   },
   {
     id: 10,
-    word: "to allocate",
-    explanation: "To give a share of something (like time or money) for a specific purpose.",
-    example: "The manager decided to allocate more money to the marketing team this year.",
-    example1: "The steering committee faced a formidable challenge in attempting to allocate the finite resources equitably among competing departments."
+    word: "eerily (similar)",
+    explanation: "Strange, unsettling, or mysterious (often describing a resemblance).",
+    example: "Their singing voices sound eerily similar over the phone.",
+    example1: "The geopolitical tension today bears an eerily similar resemblance to the conditions prior to the conflict."
   }
 ];
 

@@ -16,72 +16,72 @@ export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
     word: "obtuse",
-    explanation: "Slow to understand or insensitive.",
-    example: "Don't be so obtuse; it was obvious she was just trying to help.",
-    example1: "His deliberate attempt to remain obtuse during policy negotiations frustrated the whole committee."
+    explanation: "Annoyingly slow to understand; deliberately failing to grasp something obvious.",
+    example: "Stop being so obtuse — everyone can see the deadline was moved to Friday.",
+    example1: "His strategically obtuse responses during the inquiry served only to cast further suspicion on his conduct."
   },
   {
     id: 2,
     word: "conduit",
-    explanation: "A channel or means through which something passes or spreads.",
-    example: "The port city acts as a major conduit for trade between the two regions.",
-    example1: "Financial institutions can inadvertently become conduits for illicit international monetary transfers."
+    explanation: "A person, channel, or system through which something is transmitted or passed.",
+    example: "The local NGO acts as a conduit between the government and rural communities.",
+    example1: "Regulatory bodies have raised concerns that shell companies may serve as conduits for capital flight and tax evasion."
   },
   {
     id: 3,
     word: "to lead somebody up (down) the garden path",
-    explanation: "To intentionally deceive or mislead someone.",
-    example: "I thought he was being honest, but he was leading me down the garden path.",
-    example1: "The inflated revenue projections were designed to lead potential investors up the garden path."
+    explanation: "To deliberately mislead or deceive someone into a false belief.",
+    example: "The salesperson led me down the garden path about the hidden subscription fees.",
+    example1: "The glossy prospectus, replete with selective data, was widely seen as an attempt to lead institutional investors up the garden path."
   },
   {
     id: 4,
     word: "to jettison",
-    explanation: "To discard or get rid of something no longer useful.",
-    example: "We had to jettison our outdoor party plans when the severe storm hit.",
-    example1: "To maintain fiscal stability, the board voted to jettison several underperforming subsidiaries."
+    explanation: "To abandon or throw out something that has become a burden or liability.",
+    example: "The team decided to jettison the old software and switch to a cloud-based solution.",
+    example1: "Faced with mounting regulatory pressure, the conglomerate was compelled to jettison its most contentious overseas acquisitions."
   },
   {
     id: 5,
     word: "phenomenon",
-    explanation: "A remarkable, observable event or occurrence.",
-    example: "The northern lights are a natural phenomenon that draws visitors worldwide.",
-    example1: "Sociologists are analyzing the phenomenon of remote work and its long-term impact on urban infrastructure."
+    explanation: "A notable fact, event, or trend that is observed and often studied.",
+    example: "Social media influencers are a modern phenomenon that has changed how brands advertise.",
+    example1: "The rapid gentrification of inner-city districts constitutes a socioeconomic phenomenon that continues to polarise urban planners and community advocates alike."
   },
   {
     id: 6,
     word: "renowned",
-    explanation: "Famous and respected for a specific quality or achievement.",
-    example: "She is a renowned chef who owns three popular restaurants downtown.",
-    example1: "The symposium featured several world-renowned scholars addressing climate economics."
+    explanation: "Widely known and admired for a particular skill, quality, or achievement.",
+    example: "The city is renowned for its street food and vibrant night markets.",
+    example1: "Renowned for her groundbreaking work in behavioural economics, the professor was invited to address the World Economic Forum in Davos."
   },
   {
     id: 7,
     word: "insomuch",
-    explanation: "To the extent or degree that (often used as 'insomuch as').",
-    example: "The campaign succeeded insomuch as it raised public awareness quickly.",
-    example1: "The policy was controversial, insomuch as it restricted individual freedoms under the guise of public safety."
+    explanation: "To the degree or extent that; used to qualify a statement's scope.",
+    example: "The training was useful insomuch as it covered the basics of data protection.",
+    example1: "The reform was only partially effective, insomuch as it addressed procedural shortcomings while leaving the underlying structural inequities entirely intact."
   },
   {
     id: 8,
     word: "cutting-edge",
-    explanation: "Extremely modern, advanced, or innovative.",
-    example: "The university built a new research facility equipped with cutting-edge tools.",
-    example1: "Leveraging cutting-edge machine learning algorithms gave the startup a significant market advantage."
+    explanation: "At the most advanced or innovative stage of development in a field.",
+    example: "Their new app uses cutting-edge design to make budgeting feel effortless.",
+    example1: "The defence contractor's reliance on cutting-edge satellite imaging capabilities has fundamentally redefined real-time battlefield intelligence."
   },
   {
     id: 9,
     word: "to sift",
-    explanation: "To examine something thoroughly to find what is useful or important.",
-    example: "I had to sift through hundreds of emails to locate the receipt.",
-    example1: "Investigators had to sift through gigabytes of raw metadata to reconstruct the sequence of events."
+    explanation: "To carefully sort through a large amount of information to find what matters.",
+    example: "She spent the afternoon sifting through job listings to find roles that matched her skills.",
+    example1: "The forensic audit team was tasked with sifting through years of fragmented financial records to identify irregularities concealed across multiple jurisdictions."
   },
   {
     id: 10,
     word: "eerily (similar)",
-    explanation: "Strange, unsettling, or mysterious (often describing a resemblance).",
-    example: "Their singing voices sound eerily similar over the phone.",
-    example1: "The geopolitical tension today bears an eerily similar resemblance to the conditions prior to the conflict."
+    explanation: "In a strangely unsettling way, often describing an uncanny resemblance.",
+    example: "The twins speak eerily similar to each other, even finishing each other's sentences.",
+    example1: "Historians have noted that the sequence of diplomatic miscalculations leading to the current standoff is eerily similar to the brinkmanship that preceded the 1962 Cuban Missile Crisis."
   }
 ];
 

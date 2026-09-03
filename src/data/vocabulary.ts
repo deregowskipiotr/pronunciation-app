@@ -15,73 +15,73 @@ export interface Flashcard {
 export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
-    word: "obtuse",
-    explanation: "Annoyingly slow to understand; deliberately failing to grasp something obvious.",
-    example: "Stop being so obtuse — everyone can see the deadline was moved to Friday.",
-    example1: "His strategically obtuse responses during the inquiry served only to cast further suspicion on his conduct."
+    word: "sensationalism",
+    explanation: "Exaggerating news to excite or shock people.",
+    example: "Many online news channels use sensationalism to get more views.",
+    example1: "The media outlets resorted to sensationalism, prioritizing shock value over factual accuracy."
   },
   {
     id: 2,
-    word: "conduit",
-    explanation: "A person, channel, or system through which something is transmitted or passed.",
-    example: "The local NGO acts as a conduit between the government and rural communities.",
-    example1: "Regulatory bodies have raised concerns that shell companies may serve as conduits for capital flight and tax evasion."
+    word: "bias",
+    explanation: "A strong preference or unfair favor toward one side of an issue.",
+    example: "It is important to read news from different sources to notice political bias.",
+    example1: "Unconscious editorial bias can subtly shape public perception without readers realizing it."
   },
   {
     id: 3,
-    word: "to lead somebody up (down) the garden path",
-    explanation: "To deliberately mislead or deceive someone into a false belief.",
-    example: "The salesperson led me down the garden path about the hidden subscription fees.",
-    example1: "The glossy prospectus, replete with selective data, was widely seen as an attempt to lead institutional investors up the garden path."
+    word: "credibility",
+    explanation: "The quality of being trusted, believable, or respected.",
+    example: "Spreading unverified stories quickly ruins a journalist's credibility.",
+    example1: "The publication's long-standing credibility was severely undermined by the unvetted report."
   },
   {
     id: 4,
-    word: "to jettison",
-    explanation: "To abandon or throw out something that has become a burden or liability.",
-    example: "The team decided to jettison the old software and switch to a cloud-based solution.",
-    example1: "Faced with mounting regulatory pressure, the conglomerate was compelled to jettison its most contentious overseas acquisitions."
+    word: "clickbait",
+    explanation: "Content with misleading headlines designed to encourage online clicks.",
+    example: "That article had a dramatic title, but it was just pure clickbait.",
+    example1: "Aggressive clickbait tactics have diminished the overall quality of digital journalism."
   },
   {
     id: 5,
-    word: "phenomenon",
-    explanation: "A notable fact, event, or trend that is observed and often studied.",
-    example: "Social media influencers are a modern phenomenon that has changed how brands advertise.",
-    example1: "The rapid gentrification of inner-city districts constitutes a socioeconomic phenomenon that continues to polarise urban planners and community advocates alike."
+    word: "verification",
+    explanation: "The process of checking whether something is accurate and true.",
+    example: "Fact-checkers focus on the verification of news before publishing it.",
+    example1: "Rigorous source verification remains essential to maintaining professional ethical standards."
   },
   {
     id: 6,
-    word: "renowned",
-    explanation: "Widely known and admired for a particular skill, quality, or achievement.",
-    example: "The city is renowned for its street food and vibrant night markets.",
-    example1: "Renowned for her groundbreaking work in behavioural economics, the professor was invited to address the World Economic Forum in Davos."
+    word: "whistleblower",
+    explanation: "A person who reveals secretive, unethical, or illegal actions in an organization.",
+    example: "The leak came from a whistleblower inside the media company.",
+    example1: "Protected by anonymity, the whistleblower exposed systemic corporate misconduct to the press."
   },
   {
     id: 7,
-    word: "insomuch",
-    explanation: "To the degree or extent that; used to qualify a statement's scope.",
-    example: "The training was useful insomuch as it covered the basics of data protection.",
-    example1: "The reform was only partially effective, insomuch as it addressed procedural shortcomings while leaving the underlying structural inequities entirely intact."
+    word: "editorial",
+    explanation: "An article expressing the official opinion of an editor or publisher.",
+    example: "The newspaper published an editorial about social media rules.",
+    example1: "The editor-in-chief authored a poignant editorial criticizing recent legislative changes."
   },
   {
     id: 8,
-    word: "cutting-edge",
-    explanation: "At the most advanced or innovative stage of development in a field.",
-    example: "Their new app uses cutting-edge design to make budgeting feel effortless.",
-    example1: "The defence contractor's reliance on cutting-edge satellite imaging capabilities has fundamentally redefined real-time battlefield intelligence."
+    word: "allegation",
+    explanation: "A claim that someone did something wrong, made without proof yet.",
+    example: "The politician denied all allegations of spreading fake news.",
+    example1: "Substantiating such serious corruption allegations requires incontrovertible evidence."
   },
   {
     id: 9,
-    word: "to sift",
-    explanation: "To carefully sort through a large amount of information to find what matters.",
-    example: "She spent the afternoon sifting through job listings to find roles that matched her skills.",
-    example1: "The forensic audit team was tasked with sifting through years of fragmented financial records to identify irregularities concealed across multiple jurisdictions."
+    word: "distort",
+    explanation: "To twist or alter facts so they are no longer truthful.",
+    example: "Some broadcasts distort the truth to make stories sound dramatic.",
+    example1: "Manipulative headlines can distort public discourse by presenting out-of-context quotes."
   },
   {
     id: 10,
-    word: "eerily (similar)",
-    explanation: "In a strangely unsettling way, often describing an uncanny resemblance.",
-    example: "The twins speak eerily similar to each other, even finishing each other's sentences.",
-    example1: "Historians have noted that the sequence of diplomatic miscalculations leading to the current standoff is eerily similar to the brinkmanship that preceded the 1962 Cuban Missile Crisis."
+    word: "defamation",
+    explanation: "The act of harming someone's reputation with false statements.",
+    example: "The actor sued the magazine for defamation after they published fake rumors.",
+    example1: "High-profile defamation lawsuits highlight the legal risks of circulating unverified claims."
   }
 ];
 

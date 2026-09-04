@@ -16,72 +16,72 @@ export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
     word: "sensationalism",
-    explanation: "Exaggerating news to excite or shock people.",
-    example: "Many online news channels use sensationalism to get more views.",
-    example1: "The media outlets resorted to sensationalism, prioritizing shock value over factual accuracy."
+    explanation: "Using exaggerated, dramatic stories to grab attention and boost engagement.",
+    example: "My friend stopped watching that channel because it uses sensationalism instead of real news.",
+    example1: "Critics argue that the network's reliance on sensationalism has eroded its journalistic integrity and public trust."
   },
   {
     id: 2,
     word: "bias",
-    explanation: "A strong preference or unfair favor toward one side of an issue.",
-    example: "It is important to read news from different sources to notice political bias.",
-    example1: "Unconscious editorial bias can subtly shape public perception without readers realizing it."
+    explanation: "An unfair tendency to favor one person, group, or opinion over others.",
+    example: "I try to read news from a few different websites so I can spot any political bias.",
+    example1: "The report was criticized for its inherent confirmation bias, selectively presenting data that reinforced the authors' preconceived conclusions."
   },
   {
     id: 3,
     word: "credibility",
-    explanation: "The quality of being trusted, believable, or respected.",
-    example: "Spreading unverified stories quickly ruins a journalist's credibility.",
-    example1: "The publication's long-standing credibility was severely undermined by the unvetted report."
+    explanation: "The quality of being trusted and believed by others based on your track record.",
+    example: "Once a journalist publishes a false story, it's very hard to rebuild their credibility.",
+    example1: "The think tank's credibility was called into question after undisclosed funding ties to the industry it was evaluating came to light."
   },
   {
     id: 4,
     word: "clickbait",
-    explanation: "Content with misleading headlines designed to encourage online clicks.",
-    example: "That article had a dramatic title, but it was just pure clickbait.",
-    example1: "Aggressive clickbait tactics have diminished the overall quality of digital journalism."
+    explanation: "Misleading or exaggerated headlines designed only to make you click a link.",
+    example: "I clicked on that article, but it was just clickbait — there was nothing useful inside.",
+    example1: "The platform's algorithm inadvertently incentivizes clickbait by rewarding engagement metrics over journalistic accuracy and substance."
   },
   {
     id: 5,
     word: "verification",
-    explanation: "The process of checking whether something is accurate and true.",
-    example: "Fact-checkers focus on the verification of news before publishing it.",
-    example1: "Rigorous source verification remains essential to maintaining professional ethical standards."
+    explanation: "The process of confirming that information or facts are accurate and real.",
+    example: "Before sharing anything online, do a quick verification to make sure it's actually true.",
+    example1: "Independent source verification is a cornerstone of responsible reporting, safeguarding against the inadvertent propagation of misinformation."
   },
   {
     id: 6,
     word: "whistleblower",
-    explanation: "A person who reveals secretive, unethical, or illegal actions in an organization.",
-    example: "The leak came from a whistleblower inside the media company.",
-    example1: "Protected by anonymity, the whistleblower exposed systemic corporate misconduct to the press."
+    explanation: "Someone who reports illegal or dishonest activity happening inside their organization.",
+    example: "A whistleblower from inside the company warned the public about the data breach.",
+    example1: "Without robust legal protections for whistleblowers, employees face significant professional and personal risk when exposing institutional wrongdoing."
   },
   {
     id: 7,
     word: "editorial",
-    explanation: "An article expressing the official opinion of an editor or publisher.",
-    example: "The newspaper published an editorial about social media rules.",
-    example1: "The editor-in-chief authored a poignant editorial criticizing recent legislative changes."
+    explanation: "A newspaper or magazine article that gives the official opinion of its editors.",
+    example: "The newspaper wrote an editorial calling on the government to change its media policy.",
+    example1: "The editorial board issued a strongly worded statement condemning the proposed legislation as a direct threat to press freedom."
   },
   {
     id: 8,
     word: "allegation",
-    explanation: "A claim that someone did something wrong, made without proof yet.",
-    example: "The politician denied all allegations of spreading fake news.",
-    example1: "Substantiating such serious corruption allegations requires incontrovertible evidence."
+    explanation: "A claim that someone did something wrong, which hasn't been proven yet.",
+    example: "The manager faced allegations of dishonesty, but nothing was confirmed.",
+    example1: "The company categorically denied the allegations of financial misconduct, vowing to cooperate fully with the ongoing regulatory inquiry."
   },
   {
     id: 9,
     word: "distort",
-    explanation: "To twist or alter facts so they are no longer truthful.",
-    example: "Some broadcasts distort the truth to make stories sound dramatic.",
-    example1: "Manipulative headlines can distort public discourse by presenting out-of-context quotes."
+    explanation: "To change or misrepresent facts so they no longer reflect the truth.",
+    example: "Some politicians distort statistics to make their policies look better than they really are.",
+    example1: "Selective editing can profoundly distort the meaning of an interview, leading viewers to draw entirely false conclusions."
   },
   {
     id: 10,
     word: "defamation",
-    explanation: "The act of harming someone's reputation with false statements.",
-    example: "The actor sued the magazine for defamation after they published fake rumors.",
-    example1: "High-profile defamation lawsuits highlight the legal risks of circulating unverified claims."
+    explanation: "The act of damaging someone's reputation by spreading false information about them.",
+    example: "She considered taking the blogger to court for defamation after he posted lies about her.",
+    example1: "The case established a significant precedent in digital defamation law, holding online platforms partially liable for hosting unverified damaging content."
   }
 ];
 

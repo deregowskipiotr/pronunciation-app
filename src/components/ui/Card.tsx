@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import type { CardProps } from "@/types";
 
 interface CardComponentProps extends CardProps {
@@ -16,28 +15,6 @@ export const Card = ({
   onPrevious,
   className = "",
 }: CardComponentProps) => {
-  // Track flip direction for correct rotation
-  const [ ,setFlipKey] = useState(0);
-const [prevFlipped, setPrevFlipped] = useState(isFlipped);
-
-// Adjust state directly during render when prop changes
-if (isFlipped !== prevFlipped) {
-  setPrevFlipped(isFlipped);
-  setFlipKey((k) => k + 1);
-}
-
-  // Content crossfade for Prev/Next word changes
-  const textVariants = {
-    enter: { opacity: 0, filter: "blur(6px)" },
-    center: { opacity: 1, filter: "blur(0px)" },
-    exit: { opacity: 0, filter: "blur(6px)" },
-  };
-
-  const textTransition = {
-    duration: 0.35,
-    ease: [0.25, 0.1, 0.25, 1] as const,
-  };
-
   return (
     <div
       className={`
@@ -85,21 +62,11 @@ if (isFlipped !== prevFlipped) {
               className="absolute inset-0 w-full h-full flex items-center justify-center px-2 md:px-4"
               style={{ backfaceVisibility: "hidden" }}
             >
-              <AnimatePresence mode="wait">
-                <motion.div
-                  key={word.explanation + "-front-explanation"}
-                  variants={textVariants}
-                  initial="enter"
-                  animate="center"
-                  exit="exit"
-                  transition={{ ...textTransition }}
-                  className="text-slate-400 max-w-md text-center leading-relaxed"
-                >
-                  <p className="text-slate-300 text-md md:text-xl font-serif italic">
-                    {word.explanation}
-                  </p>
-                </motion.div>
-              </AnimatePresence>
+              <div className="text-slate-400 max-w-md text-center leading-relaxed">
+                <p className="text-slate-300 text-md md:text-xl font-serif italic">
+                  {word.explanation}
+                </p>
+              </div>
             </div>
 
             {/* ──── BACK FACE (Examples) ──── */}
@@ -110,35 +77,25 @@ if (isFlipped !== prevFlipped) {
                 transform: "rotateY(180deg)",
               }}
             >
-              <AnimatePresence mode="wait">
-                <motion.div
-                  key={word.word + "-back-examples"}
-                  variants={textVariants}
-                  initial="enter"
-                  animate="center"
-                  exit="exit"
-                  transition={{ ...textTransition }}
-                  className="w-full max-w-md space-y-4"
-                >
-                  <div className="bg-slate-800/30 p-4 md:p-6 rounded-md">
-                    <p className="text-sm md:text-[18px] font-medium text-primary-400 mb-2">
-                      B1/B2 Level Example:
-                    </p>
-                    <p className="text-slate-300 italic leading-relaxed text-[12px] md:text-[16px]">
-                      "{word.example}"
-                    </p>
-                  </div>
+              <div className="w-full max-w-md space-y-4">
+                <div className="bg-slate-800/30 p-4 md:p-6 rounded-md">
+                  <p className="text-sm md:text-[18px] font-medium text-primary-400 mb-2">
+                    B1/B2 Level Example:
+                  </p>
+                  <p className="text-slate-300 italic leading-relaxed text-[12px] md:text-[16px]">
+                    "{word.example}"
+                  </p>
+                </div>
 
-                  <div className="bg-slate-800/30 p-4 md:p-6 rounded-md">
-                    <p className="text-sm md:text-[18px] font-medium text-primary-400 mb-2">
-                      C1 Level Example:
-                    </p>
-                    <p className="text-slate-300 italic font-semibold leading-relaxed text-[12px] md:text-[16px]">
-                      "{word.example1}"
-                    </p>
-                  </div>
-                </motion.div>
-              </AnimatePresence>
+                <div className="bg-slate-800/30 p-4 md:p-6 rounded-md">
+                  <p className="text-sm md:text-[18px] font-medium text-primary-400 mb-2">
+                    C1 Level Example:
+                  </p>
+                  <p className="text-slate-300 italic font-semibold leading-relaxed text-[12px] md:text-[16px]">
+                    "{word.example1}"
+                  </p>
+                </div>
+              </div>
             </div>
           </motion.div>
         </div>

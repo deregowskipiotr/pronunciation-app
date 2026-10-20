@@ -15,73 +15,73 @@ export interface Flashcard {
 export const vocabularyWords: Flashcard[] = [
   {
     id: 1,
-    word: "sensationalism",
-    explanation: "Using exaggerated, dramatic stories to grab attention and boost engagement.",
-    example: "My friend stopped watching that channel because it uses sensationalism instead of real news.",
-    example1: "Critics argue that the network's reliance on sensationalism has eroded its journalistic integrity and public trust."
+    word: "nefarious",
+    explanation: "Wicked, evil, or criminal in nature.",
+    example: "The company discovered a nefarious plot to steal customer data.",
+    example1: "The investigation exposed a nefarious scheme orchestrated by senior executives to manipulate financial markets."
   },
   {
     id: 2,
-    word: "bias",
-    explanation: "An unfair tendency to favor one person, group, or opinion over others.",
-    example: "I try to read news from a few different websites so I can spot any political bias.",
-    example1: "The report was criticized for its inherent confirmation bias, selectively presenting data that reinforced the authors' preconceived conclusions."
+    word: "perturbing",
+    explanation: "Causing anxiety, worry, or distress.",
+    example: "It is perturbing to see how fast fake news spreads online.",
+    example1: "The report presented perturbing evidence of accelerating environmental degradation across the region."
   },
   {
     id: 3,
-    word: "credibility",
-    explanation: "The quality of being trusted and believed by others based on your track record.",
-    example: "Once a journalist publishes a false story, it's very hard to rebuild their credibility.",
-    example1: "The think tank's credibility was called into question after undisclosed funding ties to the industry it was evaluating came to light."
+    word: "monetary",
+    explanation: "Relating to money, currency, or finance.",
+    example: "The old picture had high emotional value but low monetary value.",
+    example1: "Central banks adjusted their monetary policies to curb rising inflation rates."
   },
   {
     id: 4,
-    word: "clickbait",
-    explanation: "Misleading or exaggerated headlines designed only to make you click a link.",
-    example: "I clicked on that article, but it was just clickbait — there was nothing useful inside.",
-    example1: "The platform's algorithm inadvertently incentivizes clickbait by rewarding engagement metrics over journalistic accuracy and substance."
+    word: "appreciable",
+    explanation: "Large or significant enough to be noticed or measured.",
+    example: "We noticed an appreciable improvement in his English after a few months.",
+    example1: "The new strategy yielded an appreciable increase in market share within the first quarter."
   },
   {
     id: 5,
-    word: "verification",
-    explanation: "The process of confirming that information or facts are accurate and real.",
-    example: "Before sharing anything online, do a quick verification to make sure it's actually true.",
-    example1: "Independent source verification is a cornerstone of responsible reporting, safeguarding against the inadvertent propagation of misinformation."
+    word: "to lament",
+    explanation: "To express sorrow, regret, or disappointment about something.",
+    example: "Many citizens lament the loss of green spaces in the city.",
+    example1: "Economists lament the government's failure to implement structural reforms during the economic boom."
   },
   {
     id: 6,
-    word: "whistleblower",
-    explanation: "Someone who reports illegal or dishonest activity happening inside their organization.",
-    example: "A whistleblower from inside the company warned the public about the data breach.",
-    example1: "Without robust legal protections for whistleblowers, employees face significant professional and personal risk when exposing institutional wrongdoing."
+    word: "counterintuitive",
+    explanation: "Going against what common sense or expectation would suggest.",
+    example: "It sounds counterintuitive, but taking short breaks can boost productivity.",
+    example1: "The study revealed a counterintuitive outcome: higher tax rates in this specific sector actually stimulated investment."
   },
   {
     id: 7,
-    word: "editorial",
-    explanation: "A newspaper or magazine article that gives the official opinion of its editors.",
-    example: "The newspaper wrote an editorial calling on the government to change its media policy.",
-    example1: "The editorial board issued a strongly worded statement condemning the proposed legislation as a direct threat to press freedom."
+    word: "to endure",
+    explanation: "To suffer through difficulty with patience, or to last over time.",
+    example: "Commuters have to endure long traffic jams every morning.",
+    example1: "Despite facing harsh economic sanctions, the local manufacturing sector managed to endure the prolonged crisis."
   },
   {
     id: 8,
-    word: "allegation",
-    explanation: "A claim that someone did something wrong, which hasn't been proven yet.",
-    example: "The manager faced allegations of dishonesty, but nothing was confirmed.",
-    example1: "The company categorically denied the allegations of financial misconduct, vowing to cooperate fully with the ongoing regulatory inquiry."
+    word: "imperative",
+    explanation: "Extremely important, urgent, or essential.",
+    example: "It is imperative to check your car oil before long drives.",
+    example1: "It is imperative that regulatory bodies enforce strict compliance to prevent systemic financial failure."
   },
   {
     id: 9,
-    word: "distort",
-    explanation: "To change or misrepresent facts so they no longer reflect the truth.",
-    example: "Some politicians distort statistics to make their policies look better than they really are.",
-    example1: "Selective editing can profoundly distort the meaning of an interview, leading viewers to draw entirely false conclusions."
+    word: "to adhere",
+    explanation: "To follow rules or instructions strictly, or to stick to something.",
+    example: "All employees must adhere to the company safety guidelines.",
+    example1: "Organizations must strictly adhere to international data protection standards to avoid severe penalties."
   },
   {
     id: 10,
-    word: "defamation",
-    explanation: "The act of damaging someone's reputation by spreading false information about them.",
-    example: "She considered taking the blogger to court for defamation after he posted lies about her.",
-    example1: "The case established a significant precedent in digital defamation law, holding online platforms partially liable for hosting unverified damaging content."
+    word: "forewarned is forearmed",
+    explanation: "Knowing about a problem in advance helps you prepare for it.",
+    example: "Knowing about the road construction helped us plan a better route—forewarned is forearmed.",
+    example1: "Analyzing competitor strategy gave the board a distinct advantage; after all, forewarned is forearmed."
   }
 ];
 

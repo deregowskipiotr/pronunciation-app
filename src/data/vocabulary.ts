@@ -13,75 +13,75 @@ export interface Flashcard {
 }
 
 export const vocabularyWords: Flashcard[] = [
-  {
+   {
     id: 1,
-    word: "nefarious",
-    explanation: "Wicked, evil, or criminal in nature.",
-    example: "The company discovered a nefarious plot to steal customer data.",
-    example1: "The investigation exposed a nefarious scheme orchestrated by senior executives to manipulate financial markets."
+    word: "Insufficient",
+    explanation: "Not enough in quantity, amount, strength, or quality to meet a particular need or requirement.",
+    example: "We don't have sufficient time to finish the project today.",
+    example1: "The evidence provided was insufficient to support the company's claims."
   },
   {
     id: 2,
-    word: "perturbing",
-    explanation: "Causing anxiety, worry, or distress.",
-    example: "It is perturbing to see how fast fake news spreads online.",
-    example1: "The report presented perturbing evidence of accelerating environmental degradation across the region."
+    word: "Inadequate",
+    explanation: "Not good enough or not suitable for a particular purpose, standard, or situation.",
+    example: "The hotel provided inadequate facilities for its guests.",
+    example1: "The current safety measures are inadequate to protect employees from potential risks."
   },
   {
     id: 3,
-    word: "monetary",
-    explanation: "Relating to money, currency, or finance.",
-    example: "The old picture had high emotional value but low monetary value.",
-    example1: "Central banks adjusted their monetary policies to curb rising inflation rates."
+    word: "Disrupts",
+    explanation: "Interrupts or prevents something from continuing normally, often causing problems or delays.",
+    example: "Loud construction work disrupts my concentration when I'm working from home.",
+    example1: "The unexpected staff shortage disrupts the company's ability to maintain its usual level of service."
   },
   {
     id: 4,
-    word: "appreciable",
-    explanation: "Large or significant enough to be noticed or measured.",
-    example: "We noticed an appreciable improvement in his English after a few months.",
-    example1: "The new strategy yielded an appreciable increase in market share within the first quarter."
+    word: "Futile",
+    explanation: "Unsuccessful or pointless because there is little or no chance of achieving the desired result.",
+    example: "It's futile to argue with him when he refuses to listen.",
+    example1: "Without additional funding, any attempt to complete the project on time would be futile."
   },
   {
     id: 5,
-    word: "to lament",
-    explanation: "To express sorrow, regret, or disappointment about something.",
-    example: "Many citizens lament the loss of green spaces in the city.",
-    example1: "Economists lament the government's failure to implement structural reforms during the economic boom."
+    word: "Deprivation",
+    explanation: "The condition of not having something essential or important, such as food, sleep, freedom, or basic living conditions.",
+    example: "Lack of sleep can lead to serious sleep deprivation.",
+    example1: "Prolonged deprivation of basic resources can have a lasting impact on people's physical and mental well-being."
   },
   {
     id: 6,
-    word: "counterintuitive",
-    explanation: "Going against what common sense or expectation would suggest.",
-    example: "It sounds counterintuitive, but taking short breaks can boost productivity.",
-    example1: "The study revealed a counterintuitive outcome: higher tax rates in this specific sector actually stimulated investment."
+    word: "Neglect",
+    explanation: "The failure to give someone or something the care, attention, or consideration they need; it can also mean to fail to do something important.",
+    example: "Don't neglect your health just because you're busy at work.",
+    example1: "The company neglected to address employees' concerns, which eventually damaged workplace morale."
   },
   {
     id: 7,
-    word: "to endure",
-    explanation: "To suffer through difficulty with patience, or to last over time.",
-    example: "Commuters have to endure long traffic jams every morning.",
-    example1: "Despite facing harsh economic sanctions, the local manufacturing sector managed to endure the prolonged crisis."
+    word: "Snaps",
+    explanation: "Can mean suddenly breaks, speaks angrily or impatiently, or suddenly loses emotional control. The exact meaning depends on context.",
+    example: "He sometimes snaps at people when he's under a lot of pressure.",
+    example1: "After weeks of constant criticism and stress, she finally snaps and tells her manager exactly what she thinks."
   },
   {
     id: 8,
-    word: "imperative",
-    explanation: "Extremely important, urgent, or essential.",
-    example: "It is imperative to check your car oil before long drives.",
-    example1: "It is imperative that regulatory bodies enforce strict compliance to prevent systemic financial failure."
+    word: "Aforementioned",
+    explanation: "Used in formal English to refer to someone or something that has already been mentioned.",
+    example: "Please contact the aforementioned person for more information.",
+    example1: "The aforementioned issues must be resolved before the company can proceed with the proposed changes."
   },
   {
     id: 9,
-    word: "to adhere",
-    explanation: "To follow rules or instructions strictly, or to stick to something.",
-    example: "All employees must adhere to the company safety guidelines.",
-    example1: "Organizations must strictly adhere to international data protection standards to avoid severe penalties."
+    word: "Congestive",
+    explanation: "Relating to congestion, especially an abnormal build-up of fluid or blood in a part of the body; commonly used in medical terminology.",
+    example: "The doctor explained that congestive heart failure is a serious medical condition.",
+    example1: "Congestive heart failure can cause fluid to accumulate in the lungs and other parts of the body."
   },
   {
     id: 10,
-    word: "forewarned is forearmed",
-    explanation: "Knowing about a problem in advance helps you prepare for it.",
-    example: "Knowing about the road construction helped us plan a better route—forewarned is forearmed.",
-    example1: "Analyzing competitor strategy gave the board a distinct advantage; after all, forewarned is forearmed."
+    word: "Substantially",
+    explanation: "To a large or considerable degree; significantly in amount, size, or importance.",
+    example: "The new system has substantially reduced the time needed to process orders.",
+    example1: "The company's operating costs increased substantially following the expansion into new markets."
   }
 ];
 
